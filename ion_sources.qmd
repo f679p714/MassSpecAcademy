@@ -1,0 +1,14 @@
+---
+title: "Ion Sources"
+image: figs/calutron_source_closeup.jpg
+---
+
+
+:::{#fig-calutron_tank} 
+
+
+![](figs/calutron_source_closeup.jpg)
+
+ One of the beta unit calutron sources. ORNL Photo 24574, from @Yergey_1997. 
+ 
+:::

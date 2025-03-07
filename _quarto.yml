@@ -1,23 +1,57 @@
 project:
   type: book
+  output-dir: docs
 
 book:
-  title: "MassSpecAcademy"
-  author: "Norah Jones"
-  date: "3/5/2025"
-  chapters:
+  title: "Mass Spec Academy"
+  favicon: figs/favicon.png
+  page-navigation: true
+  image: figs/ExtendedGeometryLineDrawing.svg
+  output-file: "Mass Spectrometry Book"
+  site-url: https://massspec.academy/
+  chapters: 
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - part: "Background"
+      href: overview.qmd
+      chapters: 
+      - text: "Concept Review"
+        href: background.qmd
+      - ion_sources.qmd
+    - part: "Analytical Considerations"
+      chapters: 
+      - baselines.qmd
+      - peak_tails_abundance_sensitivity.qmd
+    - part: "Isotope Systems"
+      chapters:
+      - U_Pb.qmd
+    - part: "Interpreting Data"
+      chapters:
+      - basic_stats_refresher.qmd
     - references.qmd
+  navbar:
+    logo: figs/logo3_250.jpg
+    right:
+      - icon: github
+        menu:
+          - text: Source Code
+            href:  https://github.com/EARTHTIME/MassSpecAcademy
+          - text: Suggest an edit
+            href:  https://github.com/EARTHTIME/MassSpecAcademy/issues/new
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
-  pdf:
-    documentclass: scrreprt
-
-
-
+    theme: flatly
+    css: styles.css
+    toc: true
+    toc-depth: 4
+    toc-expand: 3
+    toc-title: "Contents"
+    link-external-icon: true
+    link-external-newwindow: true
+    link-external-filter: '^https:\/\/noahmclean\.github\.io.*$'
+    code-fold: true
+  pdf: default
+  
+number-depth: 3
