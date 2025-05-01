@@ -1,0 +1,32 @@
+---
+title: Contributing to Mass Spec Academy
+author: Noah McLean
+date: May 1, 2025
+editor:
+  render-on-save: true
+---
+
+You can contribute to Mass Spec Academy by writing new material or editing existing content. The best way to do this and see how your new content will look is to use the Quarto publishing system and download and submit content through our GitHub repository.
+
+## Overview
+
+We are using [Quarto](https://quarto.org/) to render our instructional materials as user-friendly web and pdf documents. It's free and open source, and it's designed for open science projects like ours. Quarto lets you use all the components of a traditional academic manuscript or textbook, like text organized into chapters and sections, figures and tables with captions, equations with numbers, and references to cited work and to all those chapters/sections/equations/figures. 
+
+But wait, there's more: you can add movies, links to content from other chapters, code that drives computations and visualizations, callout blocks (like the topical side-boxes you see in textbooks, but with more options), and much else. Quarto renders this content both as a nice-looking webpage with lots of navigational features, and as a pdf file. 
+
+You can find nice examples of Quarto-authored books here:
+
+- [R for Data Science (2e)](https://r4ds.hadley.nz/)
+- [Geocomputation with Python](https://py.geocompx.org/03-spatial-operations)
+- [Causal Inference in R](https://www.r-causal.org/)
+
+## Software Installation
+
+To author new or edit existing content on your computer, you'll need to install some software. This tutorial will help you get set up --- please skip installs for any software you already have.  You will need:
+
+1. VSCode to write content
+1. The Quarto Command Line Interface (CLI)
+1. Conda to organize and manage our code tools
+1. GitHub Desktop as a user-friendly interface with GitHub (optional)
+
+### Step 1: VS Code

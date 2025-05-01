@@ -9,6 +9,8 @@ book:
   image: figs/ExtendedGeometryLineDrawing.svg
   output-file: "Mass Spectrometry Book"
   site-url: https://massspec.academy/
+  repo-url: https://github.com/EARTHTIME/MassSpecAcademy/
+  repo-actions: [edit]
   chapters: 
     - index.qmd
     - part: "Background"
@@ -50,7 +52,7 @@ format:
     toc-title: "Contents"
     link-external-icon: true
     link-external-newwindow: true
-    link-external-filter: '^https:\/\/noahmclean\.github\.io.*$'
+    link-external-filter: '^https:\/\/EARTHTIME\.github\.io.*$'
     code-fold: true
   pdf: default
   
