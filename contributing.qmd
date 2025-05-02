@@ -24,9 +24,44 @@ You can find nice examples of Quarto-authored books here:
 
 To author new or edit existing content on your computer, you'll need to install some software. This tutorial will help you get set up --- please skip installs for any software you already have.  You will need:
 
+1. Conda to organize and manage our code tools
 1. VSCode to write content
 1. The Quarto Command Line Interface (CLI)
-1. Conda to organize and manage our code tools
+    * and the Quarto VS Code extension
 1. GitHub Desktop as a user-friendly interface with GitHub (optional)
 
-### Step 1: VS Code
+### Step 1: (Mini)conda
+
+We'll use conda to keep track of all the smaller software packages that get used to create our source material. If you have already downloaded Anaconda for some previous data/science work, then great, you're all set! If not, you can download a smaller version without all the extra tools we won't use, called Miniconda. 
+
+This is the most involved install, so we're doing it first. The others are easy. Go to [https://www.anaconda.com/download/success](https://www.anaconda.com/download/success), scroll down past the Anaconda installers, and choose the Miniconda installer for your operating system. There is a Python version next to this, but don't worry about it, there's no Python involved here.  If you're still reading this text, you probably want the "Graphical Installer" option. Note that *DO NOT* need to send your email address to anaconda.com to download or use this. 
+
+Instructions for Miniconda installation are [here for each OS](https://www.anaconda.com/docs/getting-started/miniconda/install) under "Basic install instructions". You'll want to follow these, which in short means choosing an install path with no spaces (the default is a good idea). 
+
+For **Windows**, you'll want to 
+
+- install for "Just Me" instead of "All Users,"  
+- create shortcuts (selected by default) for Anaconda Prompt packages, and 
+- do [not]{.underline} "Add Miniconda3 to my PATH variable" 
+
+That wasn't so bad, right?
+
+### Step 2: VS Code
+
+You can use any editor you want for Quarto, but this tutorial will show you how to set up Microsoft Visual Studio (VS) Code. It's free, "built from open source," and it's widely used: about three quarters of developers used it in 2024. 
+
+You can consider yourself a hacker once you download VS Code from [https://code.visualstudio.com/download](https://code.visualstudio.com/download) for your operating system. It is smallish (< 200 MB download, < 500 MB disk space).
+
+Install VSCode and follow the prompts. We'll add extensions and additional components later. 
+
+### Step 3: Quarto CLI
+
+Download the Quarto Command Line Interface (CLI) from [https://quarto.org/docs/get-started/](https://quarto.org/docs/get-started/) for your operating system. Install and follow the installer instructions. This is another small-ish ~200 MB installer.  To update Quarto when a new version is released, you'll need to download the new installer and install it again.
+
+#### Step 3A: Add the Quarto VS Code Extension
+
+Open VS Code and then find the Extensions button on the left sidebar. It looks like some squares with the NE square levitating. 
+
+Then, click inside the Search bar and type "Quarto."
+
+You'll see the Quarto extension up first. Click on the extension to open an information window, then click the Install button on this window.  
