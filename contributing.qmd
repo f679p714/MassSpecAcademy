@@ -36,27 +36,50 @@ We'll use conda to keep track of all the smaller software packages that get used
 
 This is the most involved install, so we're doing it first. The others are easy. Go to [https://www.anaconda.com/download/success](https://www.anaconda.com/download/success), scroll down past the Anaconda installers, and choose the Miniconda installer for your operating system. There is a Python version next to this, but don't worry about it, there's no Python involved here.  If you're still reading this text, you probably want the "Graphical Installer" option. Note that *DO NOT* need to send your email address to anaconda.com to download or use this. 
 
-Instructions for Miniconda installation are [here for each OS](https://www.anaconda.com/docs/getting-started/miniconda/install) under "Basic install instructions". You'll want to follow these, which in short means choosing an install path with no spaces (the default is a good idea). 
+::: {.callout-note appearance="simple"}
+## Screenshot of anaconda.com/download/success
 
-For **Windows**, you'll want to 
+![Minconda downloads screenshot](figs/tutorials/Miniconda%20downloads%20screenshot.png){width=50%}\
+
+:::
+
+More detailed instructions for Miniconda installation are [here for each OS](https://www.anaconda.com/docs/getting-started/miniconda/install) under "Basic install instructions." In short, the instructions are to choose an install path with no spaces (the default is a good idea). 
+
+For **Windows**, you'll also want to 
 
 - install for "Just Me" instead of "All Users,"  
 - create shortcuts (selected by default) for Anaconda Prompt packages, and 
 - do [not]{.underline} "Add Miniconda3 to my PATH variable" 
 
-That wasn't so bad, right?
+That wasn't so bad, right? 
 
 ### Step 2: VS Code
 
-You can use any editor you want for Quarto, but this tutorial will show you how to set up Microsoft Visual Studio (VS) Code. It's free, "built from open source," and it's widely used: about three quarters of developers used it in 2024. 
+You can use any editor you want for Quarto, but this tutorial will show you how to set up Microsoft Visual Studio (VS) Code. It's free, "built from open source," and it's widely used.
 
-You can consider yourself a hacker once you download VS Code from [https://code.visualstudio.com/download](https://code.visualstudio.com/download) for your operating system. It is smallish (< 200 MB download, < 500 MB disk space).
+You can consider yourself a hacker once you download VS Code from [https://code.visualstudio.com/download](https://code.visualstudio.com/download). If you don't know which of the buttons to choose for your operating system, then click on the big button.  VS Code is smallish (< 200 MB download, < 500 MB disk space).
+
+::: {.callout-note appearance="simple"}
+## Screenshot of code.visualstudio.com/download
+
+![VS Code downloads screenshot](figs/tutorials/VSCode%20download%20screenshot.png){width=50%}\
+
+:::
 
 Install VSCode and follow the prompts. We'll add extensions and additional components later. 
 
 ### Step 3: Quarto CLI
 
-Download the Quarto Command Line Interface (CLI) from [https://quarto.org/docs/get-started/](https://quarto.org/docs/get-started/) for your operating system. Install and follow the installer instructions. This is another small-ish ~200 MB installer.  To update Quarto when a new version is released, you'll need to download the new installer and install it again.
+Download the Quarto Command Line Interface (CLI) from [https://quarto.org/docs/get-started/](https://quarto.org/docs/get-started/) for your operating system. Install and follow the installer instructions. This is another small-ish ~200 MB installer.  To update Quarto when a new version is released, you'll need to download the new installer from this website and install it again.
+
+::: {.callout-note appearance="simple"}
+## Screenshot of quarto.org/docs/get-started/
+
+![Quarto downloads screenshot](figs/tutorials/Quarto%20CLI%20downloads%20screenshot.png){width=50%}\
+
+:::
+
+Quarto is what will turn the text we write in VS Code into content that looks pretty on the web, both on desktops and on mobile screens, and a pdf.
 
 #### Step 3A: Add the Quarto VS Code Extension
 
@@ -64,4 +87,28 @@ Open VS Code and then find the Extensions button on the left sidebar. It looks l
 
 Then, click inside the Search bar and type "Quarto."
 
-You'll see the Quarto extension up first. Click on the extension to open an information window, then click the Install button on this window.  
+You'll see the Quarto extension up first. Click on the extension to open an information window, then click the Install button on this window.  You'll need the Quarto CLI installed in order to make the VS Code extension work.
+
+The Quarto extension lets VS Code recognize your Quarto-formatted files, then makes it easier to edit those files. It colors your text based on its purpose (headers, links, images, code), lets you drag and drop image files into documents, and provides a preview of your work with the click of a button.  
+
+### Step 4: GitHub Desktop
+
+We will use the version control software Git, and we will host all of our content, like writing and figures, on [GitHub.com](https://github.com/EARTHTIME/MassSpecAcademy). All current and previous versions of content on GitHub are publicly available through the GitHub.com website. Additionally, GitHub serves the [website version of our project](https://massspec.academy/), for free, through [GitHub Pages](https://pages.github.com/). Changes to the project that are pushed up to GitHub repository are automatically rendered to the website. If this makes no sense now, don't worry.
+
+The easiest way to download and install Git and to start working with our GitHub repository is to download the GitHub Desktop app from [https://desktop.github.com/download/](https://desktop.github.com/download/). GitHub knows what operating system you're using, and probably what you ate for lunch last Wednesday, so just click the button to download.
+
+::: {.callout-note appearance="simple"}
+## Screenshot of desktop.github.com/download
+
+![GitHub Desktop downloads screenshot](figs/tutorials/GitHub%20Deskdtop%20downloads%20screenshot.png){width=60%}\
+
+:::
+
+You will need to sign in with a GitHub.com username and password. Create one if you don't already --- sorry, this is the only new login you'll need for this project. 
+
+## Getting started
+
+Now that you've installed all the software you need, we will download the current version of the project onto your computer and then open it for editing. 
+
+
+

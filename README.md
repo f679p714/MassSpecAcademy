@@ -11,5 +11,5 @@ Install the Quarto VSCode extension. Other options at <https://quarto.org/docs/g
 Reproduce the environment by opening a terminal and typing `conda env create --prefix env -f environment.yml`
 
 To preview the website, either,
-1. From the index.qmd file (or any other .qmd file), hit the preview button in VSCode, or 
+1. Hit the "Preview" button in VSCode from the index.qmd file (or any other .qmd file), or 
 2. Run `quarto preview` in the terminal.

@@ -34,6 +34,7 @@ book:
     logo: figs/logo3_250.jpg
     right:
       - icon: github
+        aria-label: MassSpecAcademy at GitHub
         menu:
           - text: Source Code
             href:  https://github.com/EARTHTIME/MassSpecAcademy
