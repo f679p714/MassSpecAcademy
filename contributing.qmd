@@ -85,7 +85,21 @@ Quarto is what will turn the text we write in VS Code into content that looks pr
 
 Open VS Code and then find the Extensions button on the left sidebar. It looks like some squares with the NE square levitating. 
 
+::: {.callout-note appearance="simple"}
+## Screenshot of quarto.org/docs/get-started/
+
+![VS Code Extensions Button](figs/tutorials/VS%20Code%20Extensions%20Button%20Screenshot.png){width=50%}\
+
+:::
+
 Then, click inside the Search bar and type "Quarto."
+
+::: {.callout-note appearance="simple"}
+## Screenshot of quarto.org/docs/get-started/
+
+![VS Code Search Extensions screenshot](figs/tutorials/VS%20Code%20Search%20Extensions%20Screenshot.png){width=50%}\
+
+:::
 
 You'll see the Quarto extension up first. Click on the extension to open an information window, then click the Install button on this window.  You'll need the Quarto CLI installed in order to make the VS Code extension work.
 
@@ -108,7 +122,33 @@ You will need to sign in with a GitHub.com username and password. Create one if 
 
 ## Getting started
 
-Now that you've installed all the software you need, we will download the current version of the project onto your computer and then open it for editing. 
+Now that you've installed all the software you need, we will download the current version of the project onto your computer using GitHub Desktop, install the packages it depends on using conda, and then open it for editing in VS Code.
 
+### Fork the MassSpecAcademy GitHub repository
 
+Sign in to GitHub.com with your username and password, then navigate to [https://github.com/EARTHTIME/MassSpecAcademy](https://github.com/EARTHTIME/MassSpecAcademy). Find and click the 'Fork' button at the top right of the screen.
 
+::: {.callout-note appearance="simple"}
+## Screenshot of github.com/EARTHTIME/MassSpecAcademy
+
+![GitHub screenshot with fork button highlighted](figs/tutorials/GitHub%20fork%20button%20screenshot.png){width=60%}\
+
+:::
+
+Press the Green "Create Fork" button at the bottom left of the next screen to create a copy of the MassSpecAcademy repository on your own GitHub account. Now open the GitHub Desktop App, click the sign in with your GitHub username and password, and then from the "File" menu, choose "Clone Repository..."
+
+In the window that pops up, find your new personal copy of the MassSpecAcademy repository in the list of repositories from GitHub.com. This repository will be a single folder with all the files and subfolders of Mass Spec Academy inside it. Choose a Local Path for this folder (the default is usually good), then click the blue Clone button.  You now have a copy of Mass Spec Academy on your own computer that you can edit.
+
+### Use conda to download dependencies
+
+In order to reproduce the Mass Spec Academy website and run all of its code blocks, like the ones planned for its data and statistics chapters, then you'll need to install Python and some packages. This is easy with conda. 
+
+On a [Mac]{.underline}, navigate in Finder to your new MassSpecAcademy folder that contains our local git repository. Then right-click on the MassSpecAcademy folder and, down the list of options, choose "New Terminal At Folder".  
+
+On [Windows]{.underline}, open the Anaconda Command Prompt application that was created when you 
+
+```bash
+conda env create --prefix env -f environment.yml
+```
+
+When you hit enter, conda will think some, propose some changes, and then ask if 
