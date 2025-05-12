@@ -124,7 +124,7 @@ You will need to sign in with a GitHub.com username and password. Create one if 
 
 Now that you've installed all the software you need, we will download the current version of the project onto your computer using GitHub Desktop, install the packages it depends on using conda, and then open it for editing in VS Code.
 
-### Fork the MassSpecAcademy GitHub repository
+### 1. Fork the MassSpecAcademy GitHub repository
 
 Sign in to GitHub.com with your username and password, then navigate to [https://github.com/EARTHTIME/MassSpecAcademy](https://github.com/EARTHTIME/MassSpecAcademy). Find and click the 'Fork' button at the top right of the screen.
 
@@ -135,17 +135,30 @@ Sign in to GitHub.com with your username and password, then navigate to [https:/
 
 :::
 
-Press the Green "Create Fork" button at the bottom left of the next screen to create a copy of the MassSpecAcademy repository on your own GitHub account. Now open the GitHub Desktop App, click the sign in with your GitHub username and password, and then from the "File" menu, choose "Clone Repository..."
+Press the Green "Create Fork" button at the bottom left of the next screen to create your own copy of the MassSpecAcademy repository on your own GitHub account. Now open the GitHub Desktop App, click the sign in with your GitHub username and password, and then from the "File" menu, choose "Clone Repository..."
 
-In the window that pops up, find your new personal copy of the MassSpecAcademy repository in the list of repositories from GitHub.com. This repository will be a single folder with all the files and subfolders of Mass Spec Academy inside it. Choose a Local Path for this folder (the default is usually good), then click the blue Clone button.  You now have a copy of Mass Spec Academy on your own computer that you can edit.
+In the window that pops up, find your new personal copy of the MassSpecAcademy repository in the list of repositories from GitHub.com. This repository will be a single folder with all the files and subfolders of Mass Spec Academy inside it. Choose a Local Path for this folder (the default is usually good), then click the blue Clone button.  
 
-### Use conda to download dependencies
+Next, a window from GitHub Desktop will pop up and ask you how you want to use the repository. You want to contribute to the parent project, so keep the radio button in its top position and hit Continue.
 
-In order to reproduce the Mass Spec Academy website and run all of its code blocks, like the ones planned for its data and statistics chapters, then you'll need to install Python and some packages. This is easy with conda. 
+::: {.callout-note appearance="simple"}
+## Screenshot of popup: how do you want to use this repository?
+
+![GitHub Desktop fork popup](figs/tutorials/GitHub%20Desktop%20fork%20popup%20screenshot.png){width=40%}\
+
+:::
+
+You now have a copy of Mass Spec Academy on your own computer that you can edit!
+
+### 2. Use conda to download dependencies
+
+In order to reproduce the Mass Spec Academy website and run all of its code blocks, like the ones planned for its data and statistics chapters, you'll need to install Python and some packages. This is easy with conda. 
 
 On a [Mac]{.underline}, navigate in Finder to your new MassSpecAcademy folder that contains our local git repository. Then right-click on the MassSpecAcademy folder and, down the list of options, choose "New Terminal At Folder".  
 
-On [Windows]{.underline}, open the Anaconda Command Prompt application that was created when you 
+On [Windows]{.underline}, navigate in Windows Explorer to the MassSpecAcademy folder you created with GitHub Desktop. Copy the folder location from the address bar at the top of Windows Explorer. Now open the Anaconda Command Prompt application that was created when you installed Miniconda -- it should be listed beside all your other applications, available from your Windows button.  Type `cd "` (that is the letter `cd`, a space, then a double quotes), then paste in the path you copied, then type a second `"` to close the quotes. Hit enter.
+
+On [Windows]{.underline} or a [Mac]{.underline}, you should now see a blinking cursor to the right of some text that ends with `MassSpecAcademy`, the name of your current folder.  Copy and paste the this text at that blinking cursor, then hit enter.
 
 ```bash
 conda env create --prefix env -f environment.yml
