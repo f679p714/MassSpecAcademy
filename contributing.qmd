@@ -85,7 +85,21 @@ Quarto is what will turn the text we write in VS Code into content that looks pr
 
 Open VS Code and then find the Extensions button on the left sidebar. It looks like some squares with the NE square levitating. 
 
+::: {.callout-note appearance="simple"}
+## Screenshot of quarto.org/docs/get-started/
+
+![VS Code Extensions Button](figs/tutorials/VS%20Code%20Extensions%20Button%20Screenshot.png){width=50%}\
+
+:::
+
 Then, click inside the Search bar and type "Quarto."
+
+::: {.callout-note appearance="simple"}
+## Screenshot of quarto.org/docs/get-started/
+
+![VS Code Search Extensions screenshot](figs/tutorials/VS%20Code%20Search%20Extensions%20Screenshot.png){width=50%}\
+
+:::
 
 You'll see the Quarto extension up first. Click on the extension to open an information window, then click the Install button on this window.  You'll need the Quarto CLI installed in order to make the VS Code extension work.
 
@@ -106,9 +120,93 @@ The easiest way to download and install Git and to start working with our GitHub
 
 You will need to sign in with a GitHub.com username and password. Create one if you don't already --- sorry, this is the only new login you'll need for this project. 
 
-## Getting started
+## Getting started!
 
-Now that you've installed all the software you need, we will download the current version of the project onto your computer and then open it for editing. 
+Now that you've installed all the software you need, we will download the current version of the project onto your computer using GitHub Desktop, install the packages it depends on using conda, and then open it for editing in VS Code.
 
+### 1. Fork the MassSpecAcademy GitHub repository
 
+Sign in to GitHub.com with your username and password, then navigate to [https://github.com/EARTHTIME/MassSpecAcademy](https://github.com/EARTHTIME/MassSpecAcademy). Find and click the 'Fork' button at the top right of the screen.
+
+::: {.callout-note appearance="simple"}
+## Screenshot of github.com/EARTHTIME/MassSpecAcademy
+
+![GitHub screenshot with fork button highlighted](figs/tutorials/GitHub%20fork%20button%20screenshot.png){width=60%}\
+
+:::
+
+Press the Green "Create Fork" button at the bottom left of the next screen to create your own copy of the MassSpecAcademy repository on your own GitHub account. Now open the GitHub Desktop App, click the sign in with your GitHub username and password, and then from the "File" menu, choose "Clone Repository..."
+
+In the window that pops up, find your new personal copy of the MassSpecAcademy repository in the list of repositories from GitHub.com. This repository will be a single folder with all the files and subfolders of Mass Spec Academy inside it. Choose a Local Path for this folder (the default is usually good), then click the blue Clone button.  
+
+Next, a window from GitHub Desktop will pop up and ask you how you want to use the repository. You want to contribute to the parent project, so keep the radio button in its top position and hit Continue.
+
+::: {.callout-note appearance="simple"}
+## Screenshot of popup: how do you want to use this repository?
+
+![GitHub Desktop fork popup](figs/tutorials/GitHub%20Desktop%20fork%20popup%20screenshot.png){width=40%}\
+
+:::
+
+You now have a copy of Mass Spec Academy on your own computer! 
+
+### 2. Create a new branch for your edits
+
+#### Quick workflow overview:
+
+Your local copy, called "origin," is different than the version on GitHub owned by EARTHTIME, called "upstream." Your copy is a little sandbox where you can change anything you want --- you could mess up your GitHub repository without affecting the larger project or its web presence. You can undo any of your local edits, and you can also keep your repository up-to-date with upstream changes from others while you work. 
+
+The feature branch we're about to create in "origin," your own copy of the Mass Spec Academy repository, will be a place that you create and edit your Mass Spec Academy content. You can create a new branch for each contribution you plan to make. For instance, you could make a branch for a project like "Start TIMS applications chapter" or "Edit background sections." 
+
+When you're at a place with your project where you want to merge them with the "upstream" main repository, you will create a Pull Request using the instructions below. This alerts the project maintainers (currently [Stephen Cox](https://github.com/stephen-e-cox) and [Noah McLean](https://github.com/noahmclean)) that your content is ready. The maintainers can review your content, make suggestions or edits with the opportunity for a group discussion, and then merge your content into the main project. The merge will become visible to everyone else working on the project, and it will automatically update the website and pdf document. Now you can make a new branch for your next set of edits!
+
+#### Create your new feature branch.
+
+In GitHub Desktop, find the "Branches" dropdown menu in the middle of the top of the app window. Click anywhere in the button to make the dropdown menu appear, and click the "New Branch" button at its top right. Type in a name for your feature branch that describes the work you're about to do, or just "testing" if you want to try it out. Hit enter to create your new branch, and you're off to the races.  
+
+::: {.callout-note appearance="simple"}
+## Create a new branch on your local repository.
+
+![GitHub Desktop new branch screenshot](){width=60%}\
+
+:::
+
+As long as the name of your branch is showing under the "Current Branch" button on GitHub Desktop, your edits will belong to this branch. 
+
+### 3. Use conda to download dependencies
+
+In order to reproduce the Mass Spec Academy website and run all of its code blocks, like the ones planned for its data and statistics chapters, you'll need to install Python and some packages. This is easy with conda. 
+
+On a [Mac]{.underline}, navigate in Finder to your new MassSpecAcademy folder that contains our local git repository. Then right-click on the MassSpecAcademy folder and, down the list of options, choose "New Terminal At Folder".  
+
+On [Windows]{.underline}, navigate in Windows Explorer to the MassSpecAcademy folder you created with GitHub Desktop. Copy the folder location from the address bar at the top of Windows Explorer. Now open the Anaconda Command Prompt application that was created when you installed Miniconda -- it should be listed beside all your other applications, available from your Windows button.  Type `cd "` (that is the letter `cd`, a space, then a double quotes), then paste in the path you copied, then type a second `"` to close the quotes. Hit the enter key.
+
+On [Windows]{.underline} or a [Mac]{.underline}, you should now see a blinking cursor to the right of some text that starts with `(base)` and ends with `MassSpecAcademy`, the name of your current folder, like this:
+
+::: {.callout-note appearance="simple"}
+## Start of conda new environment from terminal
+
+![Conda new environment starting terminal screenshot](figs/tutorials/Conda%20new%20environment%20starting%20terminal%20screenshot.png){width=60%}\
+
+:::
+
+First, type `conda deactivate`, and hit enter. The `(base)` at the beginning of the line should disappear.  
+
+Now, copy and paste this text at that blinking cursor, then hit enter:
+
+```bash
+conda env create --prefix env -f environment.yml
+```
+
+When you hit enter, conda will think some and tell you what it is up to... "Retrieving notices," "Solving environment," "Collecting package metadata," etc. After ten or twenty seconds, conda will output a few lines of instructions for activating and deactivating your new environment. You can ignore these -- you're done with conda and the command line for now. Your terminal should look something like this:
+
+::: {.callout-note appearance="simple"}
+## End of conda new environment from terminal
+
+![End of conda new environment from terminal screenshot](figs/tutorials/Conda%20new%20environment%20ending%20screenshot.png)
+{width=60%}\
+
+:::
+
+### 3. Open VS Code
 
