@@ -154,20 +154,30 @@ You now have a copy of Mass Spec Academy on your own computer!
 
 #### Quick workflow overview:
 
-Your local copy, called "origin," is different than the version on GitHub owned by EARTHTIME, called "upstream." Your copy is a little sandbox where you can change anything you want --- you could mess up your GitHub repository without affecting the larger project or its web presence. You can undo any of your local edits, and you can also keep your repository up-to-date with upstream changes from others while you work. 
+There are now two versions of the MassSpecAcademy repository on GitHub: the main project repository owned by EARTHTIME and the forked copy of the repository that you now own.  The main project repository on GitHub is called "upstream" and the one attached to your GitHub account is called "origin." We also just used GitHub Desktop to make a local copy of your fork on your computer.  This local copy is a little sandbox where you can change anything you want --- you could mess up your local repository and/or your forked repository on GitHub without affecting the larger project or its web presence.
 
-The feature branch we're about to create in "origin," your own copy of the Mass Spec Academy repository, will be a place that you create and edit your Mass Spec Academy content. You can create a new branch for each contribution you plan to make. For instance, you could make a branch for a project like "Start TIMS applications chapter" or "Edit background sections." 
+The feature branch we're about to create in your forked GitHub repository will be a place that you create and edit your Mass Spec Academy content. You can create a new branch for each contribution you plan to make. For instance, you could make a branch for a project like "Start TIMS applications chapter" or "Edit background sections." You'll use GitHub desktop to package up each small batch of edits as a "commit" and to synchronize the edits on your local computer with your forked GitHub repository online.
 
-When you're at a place with your project where you want to merge them with the "upstream" main repository, you will create a Pull Request using the instructions below. This alerts the project maintainers (currently [Stephen Cox](https://github.com/stephen-e-cox) and [Noah McLean](https://github.com/noahmclean)) that your content is ready. The maintainers can review your content, make suggestions or edits with the opportunity for a group discussion, and then merge your content into the main project. The merge will become visible to everyone else working on the project, and it will automatically update the website and pdf document. Now you can make a new branch for your next set of edits!
+When you're at a place with your project where you want to merge your edits with the "upstream" main repository, you will create a Pull Request using the instructions below. This alerts the project maintainers (currently [Stephen Cox](https://github.com/stephen-e-cox) and [Noah McLean](https://github.com/noahmclean)) that your content is ready. The maintainers can review your content, make suggestions or edits with the opportunity for a group discussion, and then merge your content into the main project. The merge will become visible to everyone else working on the project, and it will automatically update the website and pdf document. Now you can make a new branch for your next set of edits!
 
 #### Create your new feature branch.
 
-In GitHub Desktop, find the "Branches" dropdown menu in the middle of the top of the app window. Click anywhere in the button to make the dropdown menu appear, and click the "New Branch" button at its top right. Type in a name for your feature branch that describes the work you're about to do, or just "testing" if you want to try it out. Hit enter to create your new branch, and you're off to the races.  
+In GitHub Desktop, find the "Branches" dropdown menu in the middle of the top of the app window. Click anywhere in the button to make the dropdown menu appear, and click the "New Branch" button at its top right.
+
+::: {layout-ncol=2}
+
+![](figs/tutorials/GitHub%20Desktop%20branch%20button%20screenshot.png)
+
+![](figs/tutorials/GitHub%20Desktop%20branches%20dropdown%20menu%20screenshot.png)
+
+:::
+
+Type in a name for your feature branch that describes the work you're about to do, or just "testing" if you want to try it out. Hit enter to create your new branch, and you're off to the races.  
+
 
 ::: {.callout-note appearance="simple"}
-## Create a new branch on your local repository.
-
-![GitHub Desktop new branch screenshot](){width=60%}\
+## GitHub Desktop new branch window screenshot
+![GitHub Desktop new branch dialog box screenshot](figs/tutorials/GitHub%20Desktop%20create%20a%20branch%20dialog%20box%20screenshot.png){width=60%}\
 
 :::
 
@@ -184,9 +194,9 @@ On [Windows]{.underline}, navigate in Windows Explorer to the MassSpecAcademy fo
 On [Windows]{.underline} or a [Mac]{.underline}, you should now see a blinking cursor to the right of some text that starts with `(base)` and ends with `MassSpecAcademy`, the name of your current folder, like this:
 
 ::: {.callout-note appearance="simple"}
-## Start of conda new environment from terminal
+## Terminal screenshot from the start of making a new conda environment
 
-![Conda new environment starting terminal screenshot](figs/tutorials/Conda%20new%20environment%20starting%20terminal%20screenshot.png){width=60%}\
+![Conda new environment starting terminal screenshot](figs/tutorials/Conda%20new%20environment%20starting%20terminal%20screenshot.png){width=80%}\
 
 :::
 
@@ -198,15 +208,45 @@ Now, copy and paste this text at that blinking cursor, then hit enter:
 conda env create --prefix env -f environment.yml
 ```
 
-When you hit enter, conda will think some and tell you what it is up to... "Retrieving notices," "Solving environment," "Collecting package metadata," etc. After ten or twenty seconds, conda will output a few lines of instructions for activating and deactivating your new environment. You can ignore these -- you're done with conda and the command line for now. Your terminal should look something like this:
+When you hit enter, conda will think some and tell you what it is up to, i.e., ... "Retrieving notices," "Solving environment," "Collecting package metadata," etc. After ten or twenty seconds, conda will output a few lines of instructions for activating and deactivating your new environment. You can ignore these --- you're done with conda and the command line for now. Your terminal should look something like this:
 
 ::: {.callout-note appearance="simple"}
 ## End of conda new environment from terminal
 
-![End of conda new environment from terminal screenshot](figs/tutorials/Conda%20new%20environment%20ending%20screenshot.png)
-{width=60%}\
+![End of conda new environment from terminal screenshot](figs/tutorials/Conda%20new%20environment%20ending%20screenshot.png){width=80%}\
 
 :::
 
 ### 3. Open VS Code
+
+Open the VS Code application you downloaded and installed earlier. From the File menu, select "Open Folder..." and then navigate to the "MassSpecAcademy" folder that contains the forked GitHub repository you created with GitHub Desktop. It's probably in your Documents/GitHub folder. Select the MassSpecAcademy folder and then hit the Open button to open the foler. 
+
+You're in! You'll see a panel to the left with a file directory for the whole repository. You can double-click a file to open it for editing, or create a new Quarto .qmd file (right-click and choose "New File", use a button near the top of the panel, or from the "File" menu). 
+
+There's lots more on authoring Quarto content at [https://quarto.org/docs/authoring/markdown-basics.html](https://quarto.org/docs/authoring/markdown-basics.html). 
+
+To preview your work, hit the "Preview" button at the top right of the VS Code window:
+
+::: {.callout-note appearance="simple"}
+## VS Code screenshot with Preview button highlighted
+
+![VS Code Preview button screenshot](figs/tutorials/VS%20Code%20Preview%20button%20screenshot.png){width=80%}\
+
+:::
+
+A preview panel will open on the right hand side of VS Code that you can resize to make readable. Another panel will open at the bottom that contains an integrated terminal window with output from Quarto about what it's doing. 
+
+If you've previewed a file that is already part of the website, then you will wait a minute, then see an interactive preview of the entire website. If you have previewed a new .qmd file that is not yet attached to the website navigation, you will see a preview of this page only. Command or control-click the http://localhost:XXXX/ link that appears in the terminal window or copy the same text from the top of the preview window and paste it into a browser to preview your content in a web browser. You can hit preview as often as you like to preview your changes and make sure your content is rendering correctly.
+
+
+### 4. Commit your edits on GitHub Desktop
+
+When you've hit a natural stopping place, like completing some writing or editing a section, or you're wrapping up and taking a long break, then it's time to commit your work. Open GitHub Desktop and you'll find that the left-hand panel titled "Changes" contains a list of all the files you've added, modified, or deleted. Each file will have a check box next to it, checked by default. The larger right-hand panel will show you all the changes you've made, with new content in green and deleted content in red.
+
+::: {.callout-note appearance="simple"}
+## GitHub Desktop screenshot with uncommitted changes
+
+![GitHub desktop screenshot with uncommitted changes](figs/tutorials/GitHub Desktop uncommitted changes screenshot.png){width=80%}\
+
+:::
 
