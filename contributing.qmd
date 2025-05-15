@@ -250,3 +250,33 @@ When you've hit a natural stopping place, like completing some writing or editin
 
 :::
 
+You'll recognize some of the files on the list as ones you added, edited, or delted, and perhaps others as ones that Quarto created for your preview. You just want to commit the files that you added/edited/delted. Un-check the preview-related files, which end with .html, .js, .css, and .woff. 
+
+::: {.callout-note appearance="simple"}
+## GitHub Desktop: only stage (leave checkbox checked) the files you added/edited/deleted
+
+![GitHub desktop screenshot staging edited files](figs/tutorials/GitHub%20Desktop%20staging%20screenshot.png){width=80%}\
+
+:::
+
+Next, find the commit message area in the bottom left of the GitHub Desktop window. In the "Summary" bar, write a short summary of your edits (ideally < 50 characters), like "Add explanation of work function for TIMS." In the the "Description" box below, you can optionally leave a concise explanation of your edits. The commit message will be preserved alongside your edits and will help everyone understand your proposed changes and find where/when conetent was edited in case changes need to be reverted. 
+
+::: {.callout-note appearance="simple"}
+## GitHub Desktop example commit message
+
+![GitHub desktop screenshot of example commit message](figs/tutorials/GitHub%20Desktop%20example%20commit%20message%20screenshot.png){width=80%}\
+
+:::
+
+When you're done, hit the blue "Commit" button at the bottom left of the GitHub Desktop window. Your changes have now been wrapped up as a commit in the local version of your MassSpecAcademy repository on your computer. To synch the commit with your forked GitHub repository online, called "origin", click the "Push origin" button at the top right of the GitHub Desktop window.
+
+::: {.callout-note appearance="simple"}
+## GitHub Desktop screenshot of commit ready to push to origin
+
+![GitHub desktop screenshot of example commit message](figs/tutorials/GitHub%20Desktop%20ready%20to%20push%20origin%20screenshot.png){width=80%}\
+
+:::
+
+### 5. Create a Pull Request
+
+At any time after you've made the first commit to your new branch, you can open a **pull request**, which alerts everyone working on the upstream EARTHTIME/MassSpecAcademy repository that you have some changes you'd like to eventually merge into the main repository. 
