@@ -279,4 +279,23 @@ When you're done, hit the blue "Commit" button at the bottom left of the GitHub 
 
 ### 5. Create a Pull Request
 
-At any time after you've made the first commit to your new branch, you can open a **pull request**, which alerts everyone working on the upstream EARTHTIME/MassSpecAcademy repository that you have some changes you'd like to eventually merge into the main repository. 
+At any time after you've made the first commit to your new branch, you can open a **pull request**, which alerts everyone working on the upstream EARTHTIME/MassSpecAcademy repository that you have some changes you'd like to eventually merge into the main repository. You can keep making commits to your branch, which then get added to the pull request. When the branch is ready, let Stephen and Noah know. They'll make sure it doesn't break anything, then merge it into the main repository, which will update the website automatically.
+
+To create a pull request, click on the "Current Branch" dropdown button at the center top of the GitHub Desktop window. There are two tabs for the dropdown, "Branches" and "Pull Requests." Click the "Pull Requests" tab to see a blue text link that ofers to open a new pull request for you.
+
+::: {.callout-note appearance="simple"}
+## GitHub Desktop screenshot of the pull requests tab on the "Current Branch" dropdown
+
+![GitHub Desktop open new pull request screenshot](figs/tutorials/GitHub%20Desktop%20pull%20requests%20tab%20screenshot.png){width=80%}\
+
+:::
+
+Clicking the blue link to "create a pull request" will open a new browser tab at the EARTHTIME/MassSpecAcademy repository. The tab will be pre-populated with all the right selections for creating a new pull request from the branch in your forked repository that you've been working on.  Enter a good summary and description for what you plan to contribute in this pull requset (e.g., "update SIMS figures" or "add chapter oncalutron history"), then click the green "Create Pull Request" button.  
+
+::: {.callout-note appearance="simple"}
+## GitHub Desktop screenshot of the pull requests tab on the "Current Branch" dropdown
+
+![GitHub website create new pull request screenshot](figs/tutorials/GitHub%20website%20open%20a%20pull%20request%20screenshot.png){width=80%}\
+
+:::
+
