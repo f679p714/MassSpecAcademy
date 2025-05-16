@@ -114,7 +114,7 @@ The easiest way to download and install Git and to start working with our GitHub
 ::: {.callout-note appearance="simple"}
 ## Screenshot of desktop.github.com/download
 
-![GitHub Desktop downloads screenshot](figs/tutorials/GitHub%20Deskdtop%20downloads%20screenshot.png){width=60%}\
+![GitHub Desktop downloads screenshot](figs/tutorials/GitHub%20Desktop%20downloads%20screenshot.png){width=60%}\
 
 :::
 
@@ -219,7 +219,7 @@ When you hit enter, conda will think some and tell you what it is up to, i.e., .
 
 ### 3. Open VS Code
 
-Open the VS Code application you downloaded and installed earlier. From the File menu, select "Open Folder..." and then navigate to the "MassSpecAcademy" folder that contains the forked GitHub repository you created with GitHub Desktop. It's probably in your Documents/GitHub folder. Select the MassSpecAcademy folder and then hit the Open button to open the foler. 
+Open the VS Code application you downloaded and installed earlier. From the File menu, select "Open Folder..." and then navigate to the "MassSpecAcademy" folder that contains the forked GitHub repository you created with GitHub Desktop. It's probably in your Documents/GitHub folder. Select the MassSpecAcademy folder and then hit the Open button to open the folder. 
 
 You're in! You'll see a panel to the left with a file directory for the whole repository. You can double-click a file to open it for editing, or create a new Quarto .qmd file (right-click and choose "New File", use a button near the top of the panel, or from the "File" menu). 
 
@@ -250,7 +250,7 @@ When you've hit a natural stopping place, like completing some writing or editin
 
 :::
 
-You'll recognize some of the files on the list as ones you added, edited, or delted, and perhaps others as ones that Quarto created for your preview. You just want to commit the files that you added/edited/delted. Un-check the preview-related files, which end with .html, .js, .css, and .woff. 
+You'll recognize some of the files on the list as ones you added, edited, or deleted, and perhaps others as ones that Quarto created for your preview. You just want to commit the files that you added/edited/deleted. Un-check the preview-related files, which end with .html, .js, .css, and .woff. 
 
 ::: {.callout-note appearance="simple"}
 ## GitHub Desktop: only stage (leave checkbox checked) the files you added/edited/deleted
@@ -259,7 +259,7 @@ You'll recognize some of the files on the list as ones you added, edited, or del
 
 :::
 
-Next, find the commit message area in the bottom left of the GitHub Desktop window. In the "Summary" bar, write a short summary of your edits (ideally < 50 characters), like "Add explanation of work function for TIMS." In the the "Description" box below, you can optionally leave a concise explanation of your edits. The commit message will be preserved alongside your edits and will help everyone understand your proposed changes and find where/when conetent was edited in case changes need to be reverted. 
+Next, find the commit message area in the bottom left of the GitHub Desktop window. In the "Summary" bar, write a short summary of your edits (ideally < 50 characters), like "Add explanation of work function for TIMS." In the the "Description" box below, you can optionally leave a concise explanation of your edits. The commit message will be preserved alongside your edits and will help everyone understand your proposed changes and find where/when content was edited in case changes need to be reverted. 
 
 ::: {.callout-note appearance="simple"}
 ## GitHub Desktop example commit message
@@ -281,7 +281,7 @@ When you're done, hit the blue "Commit" button at the bottom left of the GitHub 
 
 At any time after you've made the first commit to your new branch, you can open a **pull request**, which alerts everyone working on the upstream EARTHTIME/MassSpecAcademy repository that you have some changes you'd like to eventually merge into the main repository. You can keep making commits to your branch, which then get added to the pull request. When the branch is ready, let Stephen and Noah know. They'll make sure it doesn't break anything, then merge it into the main repository, which will update the website automatically.
 
-To create a pull request, click on the "Current Branch" dropdown button at the center top of the GitHub Desktop window. There are two tabs for the dropdown, "Branches" and "Pull Requests." Click the "Pull Requests" tab to see a blue text link that ofers to open a new pull request for you.
+To create a pull request, click on the "Current Branch" dropdown button at the center top of the GitHub Desktop window. There are two tabs for the dropdown, "Branches" and "Pull Requests." Click the "Pull Requests" tab to see a blue text link that offers to open a new pull request for you.
 
 ::: {.callout-note appearance="simple"}
 ## GitHub Desktop screenshot of the pull requests tab on the "Current Branch" dropdown
@@ -290,7 +290,7 @@ To create a pull request, click on the "Current Branch" dropdown button at the c
 
 :::
 
-Clicking the blue link to "create a pull request" will open a new browser tab at the EARTHTIME/MassSpecAcademy repository. The tab will be pre-populated with all the right selections for creating a new pull request from the branch in your forked repository that you've been working on.  Enter a good summary and description for what you plan to contribute in this pull requset (e.g., "update SIMS figures" or "add chapter oncalutron history"), then click the green "Create Pull Request" button.  
+Clicking the blue link to "create a pull request" will open a new browser tab at the EARTHTIME/MassSpecAcademy repository. The tab will be pre-populated with all the right selections for creating a new pull request from the branch in your forked repository that you've been working on.  Enter a good summary and description for what you plan to contribute in this pull request (e.g., "update SIMS figures" or "add chapter on calutron history"), then click the green "Create Pull Request" button.  
 
 ::: {.callout-note appearance="simple"}
 ## GitHub Desktop screenshot of the pull requests tab on the "Current Branch" dropdown
@@ -299,3 +299,30 @@ Clicking the blue link to "create a pull request" will open a new browser tab at
 
 :::
 
+You can go to [https://github.com/EARTHTIME/MassSpecAcademy/pulls](https://github.com/EARTHTIME/MassSpecAcademy/pulls) to see all the other open pull requests, which represent others' in-progress contributions. Click the link for a pull request to read the commit messages and see how each project is progressing, and click a link to a commit to view its contents. This way, even though everyone is working on their own personal copy of the code on their own computer, you can get a sense of what others are doing. The pull requests page on the central repository linked above also serves as a discussion page -- you can leave comments, ask questions, and make suggestions here, and the author will be notified by GitHub. 
+
+## Get contributing!
+
+Now that you have all the software installed and infrastructure in place, you should be able to add and edit content using the Quarto plugin for VS Code, previewing the results in a browser window as you write. When you've completed a task or chunk of text, you can commit those changes to your local repository on GitHub Desktop and push those changes to your online forked repository on GitHub.com. 
+
+When your content is ready to be added to the upstream EARTHTIME/MassSpecAcademy repository and the website, then change your draft pull request to a submitted pull request, which tells Stephen and Noah it's time to review and merge your branch. To do this, go to [https://github.com/EARTHTIME/MassSpecAcademy/pulls](https://github.com/EARTHTIME/MassSpecAcademy/pulls), make sure all of your commits are present, and then click the "Ready for review" button:
+
+
+::: {.callout-note appearance="simple"}
+## GitHub website screenshot of a draft pull request that's ready for review.
+
+![GitHub website pull request ready for review](figs/tutorials/GitHub website pull request ready for review screenshot.png){width=80%}\
+
+:::
+
+Once your branch is merged, you can check [https://massspec.academy/](https://massspec.academy/) to see it live -- new content should appear in about a minute. 
+
+The contribution process now looks like:
+1. Start another branch with a new name for your new task in GitHub Desktop, 
+2. create some new content in VS Code, 
+3. commit the content on GitHub Desktop with a descriptive commit message,
+4. create a draft pull request using GitHub Desktop and GitHub.com,
+5. keep writing and committing as you go, then 
+6. when you're done, indicate on GitHub.com your pull request is ready to review.
+
+For Quarto syntax and formatting, like headings, figures, equations, and more, check out the [Authoring Guide](https://quarto.org/docs/authoring/markdown-basics.html) on the [https://quarto.org/](https://quarto.org/) website.
