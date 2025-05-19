@@ -4,6 +4,7 @@ author: Noah McLean
 date: May 1, 2025
 editor:
   render-on-save: true
+number-sections: false
 ---
 
 You can contribute to Mass Spec Academy by writing new material or editing existing content. The best way to do this and see how your new content will look is to use the Quarto publishing system and download and submit content through our GitHub repository.

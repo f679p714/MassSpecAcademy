@@ -10,7 +10,7 @@ book:
   output-file: "Mass Spectrometry Book"
   site-url: https://massspec.academy/
   repo-url: https://github.com/EARTHTIME/MassSpecAcademy/
-  repo-actions: [edit]
+  repo-actions: [issue, edit]
   chapters: 
     - index.qmd
     - part: "Background"
@@ -30,16 +30,14 @@ book:
       chapters:
       - basic_stats_refresher.qmd
     - references.qmd
+  appendices: 
+    - contributing.qmd
   navbar:
     logo: figs/logo3_250.jpg
     right:
-      - icon: github
-        aria-label: MassSpecAcademy at GitHub
-        menu:
-          - text: Source Code
-            href:  https://github.com/EARTHTIME/MassSpecAcademy
-          - text: Suggest an edit
-            href:  https://github.com/EARTHTIME/MassSpecAcademy/issues/new
+      - text: "Contribute"
+        href: contributing.qmd
+
 
 bibliography: references.bib
 
