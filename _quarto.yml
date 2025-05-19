@@ -33,7 +33,7 @@ book:
   appendices: 
     - contributing.qmd
   navbar:
-    logo: figs/logo3_250.jpg
+    logo: figs/MSA_logo.png
     right:
       - text: "Contribute"
         href: contributing.qmd
