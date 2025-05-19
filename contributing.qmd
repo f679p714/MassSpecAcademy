@@ -280,9 +280,9 @@ When you're done, hit the blue "Commit" button at the bottom left of the GitHub 
 
 ### 5. Create a Pull Request
 
-At any time after you've made the first commit to your new branch, you can open a **pull request**, which alerts everyone working on the upstream EARTHTIME/MassSpecAcademy repository that you have some changes you'd like to eventually merge into the main repository. You can keep making commits to your branch, which then get added to the pull request. When the branch is ready, let Stephen and Noah know. They'll make sure it doesn't break anything, then merge it into the main repository, which will update the website automatically.
+At any time after you've made the first commit to your new branch, you can open a **draft pull request**, which alerts everyone working on the upstream EARTHTIME/MassSpecAcademy repository that you have some changes you'd like to eventually merge into the main repository. You can keep making commits to your branch, which then get added to the draft pull request. When the branch is ready, you'll indicate that your work is "Ready for review." Stephen and Noah will make sure it doesn't break anything, then merge it into the main repository, which will update the website automatically.
 
-To create a pull request, click on the "Current Branch" dropdown button at the center top of the GitHub Desktop window. There are two tabs for the dropdown, "Branches" and "Pull Requests." Click the "Pull Requests" tab to see a blue text link that offers to open a new pull request for you.
+To create a draft pull request, click on the "Current Branch" dropdown button at the center top of the GitHub Desktop window. There are two tabs for the dropdown, "Branches" and "Pull Requests." Click the "Pull Requests" tab to see a blue text link that offers to open a new pull request for you.
 
 ::: {.callout-note appearance="simple"}
 ## GitHub Desktop screenshot of the pull requests tab on the "Current Branch" dropdown
@@ -291,16 +291,28 @@ To create a pull request, click on the "Current Branch" dropdown button at the c
 
 :::
 
-Clicking the blue link to "create a pull request" will open a new browser tab at the EARTHTIME/MassSpecAcademy repository. The tab will be pre-populated with all the right selections for creating a new pull request from the branch in your forked repository that you've been working on.  Enter a good summary and description for what you plan to contribute in this pull request (e.g., "update SIMS figures" or "add chapter on calutron history"), then click the green "Create Pull Request" button.  
+Clicking the blue link to "create a pull request" will open a new browser tab at the EARTHTIME/MassSpecAcademy repository. The tab will be pre-populated with all the right selections for creating a new pull request from the branch in your forked repository that you've been working on.  Enter a good summary and description for what you plan to contribute in this pull request (e.g., "update SIMS figures" or "add chapter on calutron history"). Then click the dropdown arrow next to the green "Create Pull Request" button and choose "Create draft pull request":
 
 ::: {.callout-note appearance="simple"}
-## GitHub Desktop screenshot of the pull requests tab on the "Current Branch" dropdown
+## GitHub website screenshot of starting a draft pull request
 
 ![GitHub website create new pull request screenshot](figs/tutorials/GitHub%20website%20open%20a%20pull%20request%20screenshot.png){width=80%}\
 
 :::
 
-You can go to [https://github.com/EARTHTIME/MassSpecAcademy/pulls](https://github.com/EARTHTIME/MassSpecAcademy/pulls) to see all the other open pull requests, which represent others' in-progress contributions. Click the link for a pull request to read the commit messages and see how each project is progressing, and click a link to a commit to view its contents. This way, even though everyone is working on their own personal copy of the code on their own computer, you can get a sense of what others are doing. The pull requests page on the central repository linked above also serves as a discussion page -- you can leave comments, ask questions, and make suggestions here, and the author will be notified by GitHub. 
+You can go to [https://github.com/EARTHTIME/MassSpecAcademy/pulls](https://github.com/EARTHTIME/MassSpecAcademy/pulls) to see all the other open draft pull requests, which represent others' in-progress contributions. Click the link for a pull request to read the commit messages and see how each project is progressing, and click a link to a commit to view its contents. This way, even though everyone is working on their own personal copy of the code on their own computer, you can get a sense of what others are doing. The pull requests page on the central repository linked above also serves as a discussion page -- you can leave comments, ask questions, and make suggestions here, and the author will be notified by GitHub. 
+
+When you're ready for your content to be added to the webpage, go back to [https://github.com/EARTHTIME/MassSpecAcademy/pulls](https://github.com/EARTHTIME/MassSpecAcademy/pulls), choose your pull request, and then click the "Ready for review" button.
+
+::: {.callout-note appearance="simple"}
+## GitHub website screenshot of ready to review button
+
+![GitHub website create new pull request screenshot](figs/tutorials/GitHub%20website%20open%20a%20pull%20request%20screenshot.png){width=80%}\
+
+:::
+
+Now Stephen and Noah know that your work is ready to add to the website!
+
 
 ## Get contributing!
 
