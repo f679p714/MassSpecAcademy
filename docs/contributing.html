@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.29">
+<meta name="generator" content="quarto-1.7.30">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -75,7 +75,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-e22fbe6e69edb8577f7b7bd0719516f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
@@ -692,8 +692,8 @@ GitHub Desktop screenshot of commit ready to push to origin
 </section>
 <section id="create-a-pull-request" class="level3">
 <h3 class="anchored" data-anchor-id="create-a-pull-request">5. Create a Pull Request</h3>
-<p>At any time after you’ve made the first commit to your new branch, you can open a <strong>pull request</strong>, which alerts everyone working on the upstream EARTHTIME/MassSpecAcademy repository that you have some changes you’d like to eventually merge into the main repository. You can keep making commits to your branch, which then get added to the pull request. When the branch is ready, let Stephen and Noah know. They’ll make sure it doesn’t break anything, then merge it into the main repository, which will update the website automatically.</p>
-<p>To create a pull request, click on the “Current Branch” dropdown button at the center top of the GitHub Desktop window. There are two tabs for the dropdown, “Branches” and “Pull Requests.” Click the “Pull Requests” tab to see a blue text link that offers to open a new pull request for you.</p>
+<p>At any time after you’ve made the first commit to your new branch, you can open a <strong>draft pull request</strong>, which alerts everyone working on the upstream EARTHTIME/MassSpecAcademy repository that you have some changes you’d like to eventually merge into the main repository. You can keep making commits to your branch, which then get added to the draft pull request. When the branch is ready, you’ll indicate that your work is “Ready for review.” Stephen and Noah will make sure it doesn’t break anything, then merge it into the main repository, which will update the website automatically.</p>
+<p>To create a draft pull request, click on the “Current Branch” dropdown button at the center top of the GitHub Desktop window. There are two tabs for the dropdown, “Branches” and “Pull Requests.” Click the “Pull Requests” tab to see a blue text link that offers to open a new pull request for you.</p>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -708,22 +708,22 @@ GitHub Desktop screenshot of the pull requests tab on the “Current Branch” d
 </p>
 </div>
 </div>
-<p>Clicking the blue link to “create a pull request” will open a new browser tab at the EARTHTIME/MassSpecAcademy repository. The tab will be pre-populated with all the right selections for creating a new pull request from the branch in your forked repository that you’ve been working on. Enter a good summary and description for what you plan to contribute in this pull request (e.g., “update SIMS figures” or “add chapter on calutron history”), then click the green “Create Pull Request” button.</p>
+<p>Clicking the blue link to “create a pull request” will open a new browser tab at the EARTHTIME/MassSpecAcademy repository. The tab will be pre-populated with all the right selections for creating a new pull request from the branch in your forked repository that you’ve been working on. Enter a good summary and description for what you plan to contribute in this pull request (e.g., “update SIMS figures” or “add chapter on calutron history”). Then click the dropdown arrow next to the green “Create Pull Request” button and choose “Create draft pull request”:</p>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-GitHub Desktop screenshot of the pull requests tab on the “Current Branch” dropdown
+GitHub website screenshot of creating a draft pull request
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><img src="figs/tutorials/GitHub website open a pull request screenshot.png" class="img-fluid" style="width:80.0%" alt="GitHub website create new pull request screenshot"><br>
+<p><img src="figs/tutorials/GitHub website create new draft pull request screenshot.png" class="img-fluid" style="width:80.0%" alt="GitHub website create draft pull request screenshot"><br>
 </p>
 </div>
 </div>
-<p>You can go to <a href="https://github.com/EARTHTIME/MassSpecAcademy/pulls">https://github.com/EARTHTIME/MassSpecAcademy/pulls</a> to see all the other open pull requests, which represent others’ in-progress contributions. Click the link for a pull request to read the commit messages and see how each project is progressing, and click a link to a commit to view its contents. This way, even though everyone is working on their own personal copy of the code on their own computer, you can get a sense of what others are doing. The pull requests page on the central repository linked above also serves as a discussion page – you can leave comments, ask questions, and make suggestions here, and the author will be notified by GitHub.</p>
+<p>You can go to <a href="https://github.com/EARTHTIME/MassSpecAcademy/pulls">https://github.com/EARTHTIME/MassSpecAcademy/pulls</a> to see all the other open draft pull requests, which represent others’ in-progress contributions. Click the link for a pull request to read the commit messages and see how each project is progressing, and click a link to a commit to view its contents. This way, even though everyone is working on their own personal copy of the code on their own computer, you can get a sense of what others are doing. The pull requests page on the central repository linked above also serves as a discussion page – you can leave comments, ask questions, and make suggestions here, and the author will be notified by GitHub.</p>
 </section>
 </section>
 <section id="get-contributing" class="level2">
@@ -745,7 +745,15 @@ GitHub website screenshot of a draft pull request that’s ready for review.
 </div>
 </div>
 <p>Once your branch is merged, you can check <a href="https://massspec.academy/">https://massspec.academy/</a> to see it live – new content should appear in about a minute.</p>
-<p>The contribution process now looks like: 1. Start another branch with a new name for your new task in GitHub Desktop, 2. create some new content in VS Code, 3. commit the content on GitHub Desktop with a descriptive commit message, 4. create a draft pull request using GitHub Desktop and GitHub.com, 5. keep writing and committing as you go, then 6. when you’re done, indicate on GitHub.com your pull request is ready to review.</p>
+<p>The contribution process now looks like:</p>
+<ol type="1">
+<li>Start another branch with a new name for your new task in GitHub Desktop,</li>
+<li>create some new content in VS Code,</li>
+<li>commit the content on GitHub Desktop with a descriptive commit message,</li>
+<li>create a draft pull request using GitHub Desktop and GitHub.com,</li>
+<li>keep writing and committing as you go, then</li>
+<li>when you’re done, indicate on GitHub.com your pull request is ready to review.</li>
+</ol>
 <p>For Quarto syntax and formatting, like headings, figures, equations, and more, check out the <a href="https://quarto.org/docs/authoring/markdown-basics.html">Authoring Guide</a> on the <a href="https://quarto.org/">https://quarto.org/</a> website.</p>
 
 

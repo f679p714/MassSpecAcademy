@@ -300,7 +300,7 @@ Clicking the blue link to "create a pull request" will open a new browser tab at
 
 :::
 
-You can go to [https://github.com/EARTHTIME/MassSpecAcademy/pulls](https://github.com/EARTHTIME/MassSpecAcademy/pulls) to see all the other open draft pull requests, which represent others' in-progress contributions. Click the link for a pull request to read the commit messages and see how each project is progressing, and click a link to a commit to view its contents. This way, even though everyone is working on their own personal copy of the code on their own computer, you can get a sense of what others are doing. The pull requests page on the central repository linked above also serves as a discussion page -- you can leave comments, ask questions, and make suggestions here, and the author will be notified by GitHub. 
+You can go to [https://github.com/EARTHTIME/MassSpecAcademy/pulls](https://github.com/EARTHTIME/MassSpecAcademy/pulls) to see all the other open draft pull requests, which represent others' in-progress contributions. Click the link for a pull request to read the commit messages and see how each project is progressing, and click a link to a commit to view its contents. This way, even though everyone is working on their own personal copy of the code on their own computer, you can get a sense of what others are doing. The pull requests page on the central repository linked above also serves as a discussion page -- you can leave comments, ask questions, and make suggestions here, and the author will be notified by with an email from GitHub. 
 
 
 ## Get contributing!
