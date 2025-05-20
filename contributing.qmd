@@ -251,15 +251,6 @@ When you've hit a natural stopping place, like completing some writing or editin
 
 :::
 
-You'll recognize some of the files on the list as ones you added, edited, or deleted, and perhaps others as ones that Quarto created for your preview. You just want to commit the files that you added/edited/deleted. Un-check the preview-related files, which end with .html, .js, .css, and .woff. 
-
-::: {.callout-note appearance="simple"}
-## GitHub Desktop: only stage (leave checkbox checked) the files you added/edited/deleted
-
-![GitHub desktop screenshot staging edited files](figs/tutorials/GitHub%20Desktop%20staging%20screenshot.png){width=80%}\
-
-:::
-
 Next, find the commit message area in the bottom left of the GitHub Desktop window. In the "Summary" bar, write a short summary of your edits (ideally < 50 characters), like "Add explanation of work function for TIMS." In the the "Description" box below, you can optionally leave a concise explanation of your edits. The commit message will be preserved alongside your edits and will help everyone understand your proposed changes and find where/when content was edited in case changes need to be reverted. 
 
 ::: {.callout-note appearance="simple"}
@@ -291,7 +282,9 @@ To create a draft pull request, click on the "Current Branch" dropdown button at
 
 :::
 
-Clicking the blue link to "create a pull request" will open a new browser tab at the EARTHTIME/MassSpecAcademy repository. The tab will be pre-populated with all the right selections for creating a new pull request from the branch in your forked repository that you've been working on.  Enter a good summary and description for what you plan to contribute in this pull request (e.g., "update SIMS figures" or "add chapter on calutron history"). Then click the dropdown arrow next to the green "Create Pull Request" button and choose "Create draft pull request":
+Clicking the blue link to "create a pull request" will open a new browser tab at the EARTHTIME/MassSpecAcademy repository. If you don't see the little spaceship drawing, you can also go to the main menu at the top of the screen, click "Branch", then "View Pull Request on GitHub."
+
+The EARTHTIME/MassSpecAcademy GitHub.com page will be pre-populated with all the right selections for creating a new pull request from the branch in your forked repository that you've been working on.  Enter a good summary and description for what you plan to contribute in this pull request (e.g., "update SIMS figures" or "add chapter on calutron history"). Then click the dropdown arrow next to the green "Create Pull Request" button and choose "Create draft pull request":
 
 ::: {.callout-note appearance="simple"}
 ## GitHub website screenshot of creating a draft pull request
@@ -319,6 +312,8 @@ When your content is ready to be added to the upstream EARTHTIME/MassSpecAcademy
 
 Once your branch is merged, you can check [https://massspec.academy/](https://massspec.academy/) to see it live -- new content should appear in about a minute. 
 
+### Workflow:
+
 The contribution process now looks like:
 
 1. Start another branch with a new name for your new task in GitHub Desktop, 
@@ -328,4 +323,11 @@ The contribution process now looks like:
 5. keep writing and committing as you go, then 
 6. when you're done, indicate on GitHub.com your pull request is ready to review.
 
+### Authoring
+
 For Quarto syntax and formatting, like headings, figures, equations, and more, check out the [Authoring Guide](https://quarto.org/docs/authoring/markdown-basics.html) on the [https://quarto.org/](https://quarto.org/) website.
+
+
+### Code additions
+
+The current conda environment includes Python 3.13 and Jupyter notebook requirements along with numpy, pandas, matplotlib, seaborn, and bokeh. If you need additional requirements for the code you wish to include in Mass Spec Academy, then you can add them to the environment, then export them to the environment.yml file.
