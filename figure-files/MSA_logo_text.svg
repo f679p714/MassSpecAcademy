@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1024 1024">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2 {
+        isolation: isolate;
+      }
+
+      .st3 {
+        stroke-width: 14px;
+      }
+
+      .st3, .st4 {
+        fill: none;
+        stroke-linecap: round;
+      }
+
+      .st3, .st4, .st5 {
+        stroke: #204376;
+        stroke-miterlimit: 10;
+      }
+
+      .st4 {
+        stroke-width: 18px;
+      }
+
+      .st1 {
+        font-size: 130px;
+      }
+
+      .st1, .st2 {
+        font-family: Helvetica-Bold, Helvetica;
+        font-weight: 700;
+      }
+
+      .st1, .st2, .st5 {
+        fill: #204376;
+      }
+
+      .st2 {
+        font-size: 74px;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="st4" d="M466.43,640.7c-35.36,38.74-86.27,63.04-142.85,63.04-106.79,0-193.37-86.57-193.37-193.37,0-26.9,11.13-66.56,25.17-100.1"/>
+    <polygon class="st5" points="181 362 173.62 444.86 154.05 414.18 117.71 415.98 181 362"/>
+  </g>
+  <g>
+    <line class="st3" x1="211.6" y1="667.32" x2="211.6" y2="545.32"/>
+    <path class="st5" d="M233.19,546.4c0-11.92-9.66-21.58-21.58-21.58s-21.58,9.66-21.58,21.58,9.66,21.58,21.58,21.58,21.58-9.66,21.58-21.58Z"/>
+  </g>
+  <g>
+    <line class="st3" x1="282.84" y1="699.84" x2="282.84" y2="487"/>
+    <path class="st5" d="M304.42,488.08c0-11.92-9.66-21.58-21.58-21.58s-21.58,9.66-21.58,21.58,9.66,21.58,21.58,21.58,21.58-9.66,21.58-21.58Z"/>
+  </g>
+  <g>
+    <line class="st3" x1="354.07" y1="699.84" x2="354.07" y2="417.97"/>
+    <path class="st5" d="M375.65,419.05c0-11.92-9.66-21.58-21.58-21.58s-21.58,9.66-21.58,21.58,9.66,21.58,21.58,21.58,21.58-9.66,21.58-21.58Z"/>
+  </g>
+  <g>
+    <line class="st3" x1="425.31" y1="674.85" x2="425.31" y2="329.38"/>
+    <path class="st5" d="M446.89,330.46c0-11.92-9.66-21.58-21.58-21.58s-21.58,9.66-21.58,21.58,9.66,21.58,21.58,21.58,21.58-9.66,21.58-21.58Z"/>
+  </g>
+  <g class="st0">
+    <text class="st1" transform="translate(526.05 459)"><tspan x="0" y="0">MASS</tspan></text>
+  </g>
+  <g class="st0">
+    <text class="st1" transform="translate(526.05 581.17)"><tspan x="0" y="0">SPEC</tspan></text>
+  </g>
+  <g class="st0">
+    <text class="st2" transform="translate(526.05 662.17)"><tspan x="0" y="0">ACADEMY</tspan></text>
+  </g>
+</svg>

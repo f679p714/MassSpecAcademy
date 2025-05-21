@@ -25,7 +25,9 @@ book:
       - peak_tails_abundance_sensitivity.qmd
     - part: "Isotope Systems"
       chapters:
+      - Ar_Ar.qmd
       - U_Pb.qmd
+      - U_Th_He.qmd
     - part: "Interpreting Data"
       chapters:
       - basic_stats_refresher.qmd
