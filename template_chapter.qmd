@@ -1,0 +1,130 @@
+# Template Chapter {#sec-template-chapter}
+---
+subtitle: "Dos and Don'ts of typesetting in Quarto"
+date: last-modified
+date-format: long
+bibliography: references.bib
+lightbox: true
+# jupyter: python3 # enable this line when you want to run code to make output
+image: figs/Template_LineDrawing.svg
+editor:
+  render-on-save: true
+
+# for front matter options, see https://quarto.org/docs/authoring/front-matter.html
+author: 
+  - name: Noah M. McLean
+    orcid: 0000-0003-0388-1862
+    corresponding: true
+    email: noahmc@ku.edu
+    roles:
+      - Conceptualization
+      - Writing - original draft
+      - Project administration
+      - Funding acquisition
+    affiliations:
+      - Department of Geology, University of Kansas
+  - name: Stephen E. Cox
+    email: sec2125@columbia.edu
+    roles:
+      - Conceptualization
+      - Writing - original draft
+      - Project administration
+      - Funding acquisition
+    affiliations:
+      - Lamont-Doherty Earth Observatory, Columbia University in the City of New York
+keywords:
+  - mass spectrometry
+  - instrumentation
+  - isotope geochemistry
+  - geochronology
+abstract: >
+  Here's where you'd put some text for an abstract, if you want it. It'll be in smaller font size than the rest of the article, though.
+funding: "This material is based upon work supported by the National Science Foundation under Grant Nos. EAR-2218547 and -2218544."
+---
+
+::: {.callout-warning .content-visible when-format="html"}
+🚧 This Mass Spec Academy content is under construction. 🚧
+:::
+
+## Basics
+
+Write using Markdown syntax, and find a quick tutorial here: [https://quarto.org/docs/authoring/markdown-basics.html](https://quarto.org/docs/authoring/markdown-basics.html). Some tips for the syntax we'll use in Mass Spec Academy follows.
+
+## This is a top-level section, like Headings and Labels {#sec-template-headings}
+
+After the title of the section, you can optionally add a label in curly braces {} so that you can refer to it later. The `#sec-` at the start of the section label is mandatory for Quarto. Quarto will yell at you if you have accidentally duplicated a label name from another chapter so that you can change yours.
+
+To refer to this section anywhere in the book, just write `@sec-template-headings`.  
+
+With a labelled section like this one, you can link back to @sec-template-headings.  If you want to just refer to the section number (without the word "Section"), then use `[-@sec-template-headings]`. Please use hyphens instead of underscores in your label names to keep LaTeX happy. 
+
+[Relevant headers and references docs](https://quarto.org/docs/books/book-crossrefs.html#creating-references)
+
+### This is a subsection, like Ion Counter Types
+
+#### This is a subsubsection like Dynode Voltage Schemes
+
+
+## Figures
+
+The Quarto syntax for a figure looks like 
+
+``` markdown
+![Caption text here](relative_path_to_figure.png){#fig-my-label fig-alt="Alt text" width="XX%"}
+```
+
+Here's an example. Use a blank line between the text and the figure syntax so that it isn't set inline. Figures are numbered sequentially and can refer to them if you add a label, just like for sections. The label must start with `#fig-` and don't use underscores please. Also, if the contents of the curly braces appear below the figures instead of styling the figure, it's because you used commas between the options that appear inside the curly braces (don't do that).
+
+![An extended geometry magnetic sector mass spectrometer.](figs/ExtendedGeometryLineDrawing.svg){#fig-template-extended-geometry fig-alt="Extended Geometry Magnetic Sector Mass Spectrometer" width="100%"}
+
+[Relevant Quarto Docs for many more figure options](https://quarto.org/docs/authoring/figures.html)
+
+[Another way to format a figure](https://quarto.org/docs/authoring/cross-references-divs.html)
+
+
+## Citations
+
+Export your references from your reference manager or from the online journal article in a BibTeX format, then add the work to the `references.bib` file. The name of the bibliography entry is the first element after the opening curly brace.  You can reference the entry in the text using an `@` followed by the name of the entry. For instance, @Wang_2021 typesets a reference to an atomic mass table reference. 
+
+All the usual inline reference formats are included, like [@Wang_2021] or [e.g., @Wang_2021] or [@Wang_2021; @Yergey_1997].  
+
+Your cited reference will automatically be added to the References section. 
+
+[Relevant citations docs](https://quarto.org/docs/authoring/citations.html)
+
+
+##  Equations
+
+You can typeset inline equations like $F = ma$ and display-style equations like:
+
+$$
+\sigma^2_z = \sigma^2_x \left( \dfrac{\partial z}{\partial x} \right)^{\hspace{-4pt}2} + 2\sigma^2_{xy}\left( \dfrac{\partial z}{\partial x} \right) \!\! \left( \dfrac{\partial z}{\partial y} \right) + \sigma^2_y \left( \dfrac{\partial z}{\partial y} \right)^{\hspace{-4pt}2}
+$$ {#eq-unct-propagation-xyz}
+
+Typeset equations like @eq-unct-propagation-xyz using LaTeX syntax. VS Code with the Quarto extension gives you a nice interactive preview of the display-style equation on the left-hand panel if you hit the "Preview" button above the first double dollar sign. A display equation will be numbered if you include a label after the final double dollar sign, like `{#eq-unct-propagation-xyz}` above. 
+
+For more complicated equation environments, you're best off with a trial and error approach, but Quarto seems to include many of the usual (e.g., amsmath) packages by default.
+
+[Relevant equations docs](https://quarto.org/docs/authoring/markdown-basics.html#equations)
+
+## Callout Blocks
+
+::: {.callout-note}
+We could use callout blocks in the html version of our book. This might be helpful for text asides in a less formal tone.
+:::
+
+::: {.callout-tip collapse="true"}
+## What are the three parts of a mass spectrometer?
+Perhaps we could use collapse callouts for the end-of-chapter questions and answers?
+:::
+
+[Relevant callouts docs](https://quarto.org/docs/authoring/callouts.html)
+
+## Code
+
+Check out background.qmd for a short Python code that creates a figure output. The code that created that figure is automatically included on the website as a collapsible code block above the figure.  You can edit and execute the Python inside VS Code and then preview in Quarto to see the results.
+
+If you wish to add an executable code block, then make sure to un-comment the `jupyter: python3 ` line from the header at the top of the document by removing the `#` in front of it.
+
+[Relevant code block docs](https://quarto.org/docs/computations/python.html)
+
