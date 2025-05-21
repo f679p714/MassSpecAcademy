@@ -32,6 +32,7 @@ book:
     - references.qmd
   appendices: 
     - contributing.qmd
+    - template_chapter.qmd
   navbar:
     logo: figs/MSA_logo.png
     right:

@@ -1,0 +1,41 @@
+---
+title: "Template Chapter"
+date: last-modified
+date-format: long
+bibliography: references.bib
+lightbox: true
+jupyter: python3
+image: figs/Template_LineDrawing.svg
+
+# for front matter options, see https://quarto.org/docs/authoring/front-matter.html
+author: 
+  - name: Noah McLean
+    orcid: 0000-0003-0388-1862
+    corresponding: true
+    email: noahmc@ku.edu
+    roles:
+      - Conceptualization
+      - Writing - original draft
+      - Project administration
+      - Funding acquisition
+    affiliations:
+      - Department of Geology, University of Kansas
+  - name: Stephen Cox
+    email: sec2125@columbia.edu
+    roles:
+      - Conceptualization
+      - Writing - original draft
+      - Project administration
+      - Funding acquisition
+    affiliations:
+      - Lamont-Doherty Earth Observatory, Columbia University in the City of New York
+keywords:
+  - mass spectrometry
+  - instrumentation
+  - isotope geochemistry
+  - geochronology
+abstract: >
+  Here's where you'd put some text for an abstract, if you want it. 
+funding: "This material is based upon work supported by the National Science Foundation under Grant Nos. EAR-2218547 and -2218544."
+---
+
