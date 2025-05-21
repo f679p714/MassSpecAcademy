@@ -26,6 +26,7 @@ book:
     - part: "Isotope Systems"
       chapters:
       - U_Pb.qmd
+      - Re-Os.qmd
     - part: "Interpreting Data"
       chapters:
       - basic_stats_refresher.qmd
