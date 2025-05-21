@@ -34,6 +34,7 @@ book:
     - references.qmd
   appendices: 
     - contributing.qmd
+    - citing.qmd
   navbar:
     logo: figs/MSA_logo.png
     right:
