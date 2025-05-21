@@ -26,7 +26,9 @@ book:
       - peak_tails_abundance_sensitivity.qmd
     - part: "Isotope Systems"
       chapters:
+      - Ar_Ar.qmd
       - U_Pb.qmd
+      - U_Th_He.qmd
       - Re-Os.qmd
     - part: "Interpreting Data"
       chapters:
@@ -34,7 +36,7 @@ book:
     - references.qmd
   appendices: 
     - contributing.qmd
-    
+    - citing.qmd
   navbar:
     logo: figs/MSA_logo.png
     right:

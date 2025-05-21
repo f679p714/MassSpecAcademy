@@ -1,0 +1,30 @@
+---
+title: Citing Mass Spec Academy
+author: Stephen Cox
+date: May 21, 2025
+editor:
+  render-on-save: true
+number-sections: false
+---
+
+Mass Spec Academy is maintained by the project maintainers in collaboration with a group of editors and section authors. The materials that make up MSA are maintained in a Github repository that is part of the EARTHTIME organization. Updates are periodically pushed to the website and assigned a version number. The current version is 0.1.
+
+Citations in peer-reviewed published work should refer to the version number using the format below, and should include the full author list. Dynamic citations may refer to individual sections but we recommend that they also include the version number and access date. You can access past versions and changelogs below.
+
+## How to cite the web version in static work
+
+If your work will be peer-reviewed and published online or in print as either a static resources (like a journal article) or with a version number, use the citation format below to refer to the specific version of the website that you accessed. Refer in text to the specific section referenced if necessary.
+
+Cox, S. E., Mclean, N. M., Arkula, C., Cruz-Uribe, A. M., Ickert, R, B., Lloyd, M. K., Panahi, F., Piasecki, A. M., Runyon, M. L., Souders, A. K., Tremblay, M. M. Mass Spec Academy, v. 0.1, https://massspec.academy/versions/web/v0_1.
+
+## How to cite the pdf or printed version in static work
+
+Mass Spec Academy will be availabled as a printed and static pdf resource starting with version 1.0.
+
+## How to cite sections using a hyperlink in web and dynamic resources
+
+If your work refers to a section of Mass Spec Academy using a hyperlink and does not require a traceable reference, you may directly link to https://massspec.academy or to specific sections of the web resource. However, we recommend including information about the version and date of access to avoid confusion if MSA is updated. You may also use the versions list below to access static versions for direct hyperlinking.
+
+### Versions
+
+Static versions will be periodically compiled and listed here along with a changelog. The links below refer to older versions of the live resource that will not be changed, and the corresponding files are also available in version-specific branches on Github.
