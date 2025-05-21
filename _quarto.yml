@@ -16,6 +16,7 @@ book:
     - part: "Background"
       href: overview.qmd
       chapters: 
+      - template_chapter.qmd
       - text: "Concept Review"
         href: background.qmd
       - ion_sources.qmd
@@ -33,6 +34,7 @@ book:
     - references.qmd
   appendices: 
     - contributing.qmd
+    
   navbar:
     logo: figs/MSA_logo.png
     right:
