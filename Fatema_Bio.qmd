@@ -1,0 +1,26 @@
+# Template Chapter {#sec-template-chapter}
+---
+subtitle: "Dos and Don'ts of typesetting in Quarto"
+date: last-modified
+date-format: long
+bibliography: references.bib
+lightbox: true
+# jupyter: python3 # enable this line when you want to run code to make output
+image: figs/Template_LineDrawing.svg
+editor:
+  render-on-save: true
+
+# for front matter options, see https://quarto.org/docs/authoring/front-matter.html
+keywords:
+  - mass spectrometry
+  - instrumentation
+  - isotope geochemistry
+  - geochronology
+abstract: >
+  Here's where you'd put some text for an abstract, if you want it. It'll be in smaller font size than the rest of the article, though.
+funding: "This material is based upon work supported by the National Science Foundation under Grant Nos. EAR-2218547 and -2218544."
+---
+
+Hi my name is Fatema Panahi
+
+This a test
