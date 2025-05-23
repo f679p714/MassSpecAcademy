@@ -20,6 +20,31 @@ book:
       - text: "Concept Review"
         href: background.qmd
       - ion_sources.qmd
+    - part: "Contributors"
+      chapters:
+      - aboutme_cox.qmd
+      - aboutme_mclean.qmd 
+      - aboutme_arkula.qmd 
+      - aboutme_cruz-uribe.qmd 
+      - aboutme_dutton.qmd 
+      - aboutme_ickert.qmd 
+      - aboutme_lloyd.qmd 
+      - aboutme_panahi.qmd 
+      - aboutme_piasecki.qmd 
+      - aboutme_runyon.qmd 
+      - aboutme_souders.qmd 
+      - aboutme_tremblay.qmd 
+    - part: "Mass Spectrometry Overview"
+      chapters: 
+      - mass_spec_history.qmd
+      - mass_spec_design.qmd
+      - mass_spec_types.qmd
+    - part: "Mass Spectrometer Design"
+      chapters: 
+      - ion_source_design.qmd
+      - mass_analyzer_design.qmd
+      - detector_design.qmd
+      - vacuum_systems.qmd
     - part: "Analytical Considerations"
       chapters: 
       - baselines.qmd
@@ -35,6 +60,7 @@ book:
       - basic_stats_refresher.qmd
     - references.qmd
   appendices: 
+    - aboutme_piasecki.qmd
     - contributing.qmd
     - citing.qmd
   navbar:
