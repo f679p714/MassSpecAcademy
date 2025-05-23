@@ -1,7 +1,11 @@
 
-# About Me
+# Max K. Lloyd
 
-Empty
+Max Lloyd is a stable isotope geochemist and Assistant Professor at Penn State. Max and his lab pull small bits off of large organic molecules, and put them into gas-source mass spectrometers to analyze their clumped and position-specific isotope compositions.
 
-![](figs/profile/name.jpg)
+Max got his PhD in Geochemistry from Caltech in 2017. He spent two years as an Agouron Geobiology Postdoctoral Scholar at UC Berkeley working with Daniel Stolper. He started at Penn State in 2020. 
+
+email: mlloyd@psu.edu
+
+![](figs/profile/lloyd.jpg)
 
