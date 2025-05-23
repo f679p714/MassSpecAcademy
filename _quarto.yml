@@ -35,6 +35,7 @@ book:
       - basic_stats_refresher.qmd
     - references.qmd
   appendices: 
+    - aboutme_piasecki.qmd
     - contributing.qmd
     - citing.qmd
   navbar:
