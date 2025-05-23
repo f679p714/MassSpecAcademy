@@ -34,6 +34,17 @@ book:
       - aboutme_runyon.qmd 
       - aboutme_souders.qmd 
       - aboutme_tremblay.qmd 
+    - part: "Mass Spectrometry Overview"
+      chapters: 
+      - mass_spec_history.qmd
+      - mass_spec_design.qmd
+      - mass_spec_types.qmd
+    - part: "Mass Spectrometer Design"
+      chapters: 
+      - ion_source_design.qmd
+      - mass_analyzer_design.qmd
+      - detector_design.qmd
+      - vacuum_systems.qmd
     - part: "Analytical Considerations"
       chapters: 
       - baselines.qmd
