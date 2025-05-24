@@ -68,7 +68,9 @@ The simplest detector is a [Faraday detector](@sec-design-faradays), which is us
 
 Faraday detectors capture the ions in an ion beam.  If, for instance, the ions are positive ions, then the captured positive ions generate add a positive charge to the Faraday collector. That positive charge is balanced by an electron moving into the Faraday cup through an electrical connection -- a shielded wire -- attached to its exterior. The rate that charge-balancing electrons move into the Faraday detector is proportional (and very close to equal to) the rate at which positive charges are moving into the detector.  Thus, measuring the flow of electrons into the Faraday detector, i.e., the electric current in that wire, measures the ion beam current.  If those positive ions have a $+1$ charge, then the number of electrons will ideally equal the number of positive ions. 
 
-$\quad$ @Gray1985 for lasers
+![Diagram of a Faraday detector](figs/FaradaySketchDiagram.svg){#fig-design-Faraday-sketch alt-text="Faraday detector sketch" width=80%}
+
+Unfortunately, 
 
 #### Amplifiers
 
