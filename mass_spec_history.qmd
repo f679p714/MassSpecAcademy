@@ -38,7 +38,8 @@ Uranium isotope enrichment can be performed in multiple ways, and most modern en
 
 After the conclusion of the war, the physicists and chemists who had worked on the chemistry of isotope enrichment and the physics of nuclear weapons returned to other realms of basic and applied science. The same physics understanding that allowed scientists and engineers to construct nuclear weapons contributed to an understanding of the decay of radioactive nuclides to produce enrichments in radiogenic daughter products in natural materials, which is the basis for radiogenic isotope geochemistry. The principles underlying the chemical separation of isotopes, whether through electromagnetic separation or gaseous diffusion, applied as well to the separation of isotopes through natural geochemical processes, which is the basis for stable isotope geochemistry.
 
-#### Radiogenic isotope geochemistry
+<!-- #### Radiogenic isotope geochemistry
+
 
 
 #### Stable isotope geochemistry
@@ -65,7 +66,7 @@ $$
 
 :::
 
-While this equation may look complicated, it is actually a simplified model that allows scientists to calculate the equilibrium fraction of isotopes at different temperatures. Its application allows small differences in isotope ratio to be interpreted as indicators of different physical conditions during the formation or modification of different geological materials.
+While this equation may look complicated, it is actually a simplified model that allows scientists to calculate the equilibrium fraction of isotopes at different temperatures. Its application allows small differences in isotope ratio to be interpreted as indicators of different physical conditions during the formation or modification of different geological materials. -->
 
 #### Technological developments
 
