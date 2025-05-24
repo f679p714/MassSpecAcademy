@@ -3,4 +3,4 @@
 
 Ryan Ickert is a Senior Research Scientist at Purdue University.  He has used SIMS and TIMS instrumentation extensively, and has experience in (LA) MC-ICPMS and IRMS>
 
-{{< video figs/profile/IMG_6742.mov >}}
+{{< video profile/IMG_6742.mov >}}

@@ -7,5 +7,5 @@ Max got his PhD in Geochemistry from Caltech in 2017. He spent two years as an A
 
 email: mlloyd@psu.edu
 
-![](figs/profile/lloyd.jpg)
+![](profile/lloyd.jpg)
 

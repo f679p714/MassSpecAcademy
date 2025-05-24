@@ -5,5 +5,5 @@ I am a Research Geologist at the U.S. Geological Survey serving as Principal Inv
 
 email: asouders@usgs.gov
 
-![](figs/profile/name.jpg)
+<!-- ![](profile/name.jpg) -->
 

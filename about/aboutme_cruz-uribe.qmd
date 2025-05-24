@@ -1,4 +1,4 @@
-![](figs/profile/cruz-uribe.jpg){fig-alt="Dr. Alicia (Cici) Cruz-Uribe " width="50%"}
+![](profile/cruz-uribe.jpg){fig-alt="Dr. Alicia (Cici) Cruz-Uribe " width="50%"}
 
 # Alicia (Cici) Cruz-Uribe {.unnumbered}
 
