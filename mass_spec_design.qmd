@@ -5,12 +5,36 @@ General outline of a mass spectrometer
 Diagram with parts labeled. Ion optics will point to several different pieces.
 
 
-## Sample introduction system
+## Sample introduction systems {#sec-design-sample-introduction-systems}
+Sample introduction systems can be organized by the physical form (phase) of the material it handles. Fundamentally different strategies are needed depending on whether the sample is a solid, liquid, or gas. The right introduction system for your specific application could also depend on your analytical goal. For example, you might need to add a tracer to help you quantify amounts of certain analytes, or use exploit chemical or physical processes to remove a problematic contaminant. Here, we'll organize introduction systems by sample phase.
 
-Sample introduction systems can be organized by the physical form (phase) of the material it handles. Fundamentally different strategies are needed depending on whether the sample is a solid, liquid, or gas. The right introduction system for your specific application could also depend on your analytical goal. For example, you might need to add a tracer to help you quantify amounts of certain analytes, or use exploit chemical or physical processes to remove a problematic contaminant. Here, we'll organize introduction systems by sample phase. It's (arguably) simplest to turn gases into ions, so let's start with that.
+### What makes a good sample introduction system? {#sec-design-what-makes-a-good-intro}
+
+Regardless of the physical form of the sample, all sample introduction systems adhere to (or strive for) a few guiding principles:
+1. Vacuum: Slow enough introduction rate that the instrument remains at vacuum
+2. Stable: Introduction of material (and thus ion beams) are stable over time or change only gradually, ideally in a manner that does not fractionate the sample (or if it does fractionate, does so reproducibly)
+3. Identical treatment: System strives to treat samples and standards identically, and switch between samples and standards easily without changing the state of the instrument.
+
+#### The vacuum constraint {#sec-design-vacuum-constraint}
+
+Mass spectrometers require high or ultra-high vacuums to operate. If the ions that we've worked so hard to separate from each other hit other particles in the instrument, they'll get knocked off course, lose energy, and show up in the wrong place. The technical term for this is the **mean free path**, which chiefly depends on pressure and quantifies how long the average particle can travel in a straight line before hitting another particle. See XXX for more details on the mean free path and how to calculate it. So, when working correctly, a mass spectrometer needs a low pressure and (thus) a long mean free path.
+
+However, analyzing a sample, by definition, adds stuff to the instrument and makes the vacuum worse. So, the way that and rate at which we can introduce a sample to the instrument is constrained by how many particles we can tolerate (before the mean free path is too short) and the rate and which the instrument can remove them. Larger samples create brighter ion beams, more counts, and thus higher precision. But the size of samples are fundamentally limited by how much added material a mass spectrometer can handle. Every sample introduction system is bounded by this constraint and must design around it.
+
+For example, suppose we need a mean free path of at least 100 m, so that nearly all ions avoid collisions along the ~1 m flight path of our mass analyzer and our mass resolving power doesn't degrade. At room temperature, this requires a pressure no higher than about $10^{-9}$ bar for molecules the size of the main components of air. If vacuum is maintained using a turbomolecular pump with a pumping speed of 100 L/s (which is pretty standard), from $Q = SP$, we can add sample at a rate no higher than $100\ \text{L/S} \times 10^{-9}\ \text{bar} = 10^{-7\} \text{L bar/s}$. For an ideal gas at room temperature, this corresponds to $\frac{PV}{RT} = 10^{-7}/0.083/298 \approx 4\times10^{-9}\ \text{moles/s}$, or about 0.25 $\mu$moles per minute. This constraint may be easily met in systems working on small amounts of material, but it still governs the design of the sample introduction system
+
+
+Beyond this fundamental constraint, two additional constraints related to vacuum that influence the design of sample introduction systems are: 1) if they were handled by humans, most samples are (or at some point were) at atmospheric pressure; and 2) many ion sources require (or operate more efficiently in) environments where the mean free path is much shorter than 100 m. Getting samples from atmospheric pressure to whatever pressure the ion source requires (anywhere from $<10^{-8}$ to $>1$ bar depending on the instrument), and then from the pressure in the ion source to the (often) lower pressures required by the mass analyzer at the slow rates required by the $Q=SP$ constraint above is a throughline that controls how mass spectrometers are designed. How different inlet systems solve these constraints depends on the phase in which the material is analyzed.
+
+#### Stability constraint
+
+#### Identical treatment
+
+
 
 ### Gases
 
+Adding gases to a mass spectrometer is, in principle, easy because gases will act to equalize pressures across the space provided them. So, if the pressure in our ion source is lower than in the sample reservoir, gas will flow into our instrument at a rate that we can control based on the conductance at the interface. In practice 
 
 
 #### Viscous leak
