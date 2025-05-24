@@ -50,11 +50,12 @@ Disadvantages: Much less sensitive for low-z species. Lower sensitivity than qua
 
 ## Accelerator Mass Spectrometer (AMS) {#sec-design-AMS}
 
-
+Large, expensive instruments, very high voltages. Contains several of the mass analyzers mentioned above, plus more components.
 
 ## Orbitrap mass analyzer {#sec-design-Orbitrap}
 
 Max can clean this up later. Thanks Max!
 
+## Ion trap mass analyzer {#sec-design-ion-traps}
 
-
+Stephen can discuss advantages and disadvantages here.
