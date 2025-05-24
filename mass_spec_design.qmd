@@ -59,7 +59,7 @@ By manipulating the RF and DC components of the field, high and low-pass filters
 
 **Some math!** or **More details!** or **How are the potentials calculated?** 
 - follow an ex: stability of ion of a single mass 
--       mathieu equation --> "stability triangle" 
+-       mathieu equation and "stability triangle" 
 
 **Advantages of quadrupoles**
 
