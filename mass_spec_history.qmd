@@ -15,6 +15,8 @@ title: "Mass spec history"
 
 <!-- H Urey, W Paul, Calutrons, growth of isotope geochemistry, first TOF in late 40s -->
 
+World War II greatly accelerated the pace of scientific development in physics and chemistry as world powers competed to develop new weapons, production techniques, and energy sources.
+
 ## 1960s-1970s: Diversification of techniques
 
 <!-- SIMS, glow discharge, Viking mass spectrometers, AMS, commercial TOF, commercial QMS -->
