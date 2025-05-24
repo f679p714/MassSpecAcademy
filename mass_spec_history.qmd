@@ -3,7 +3,16 @@ title: "Mass spec history"
 ---
 
 ## 1890s-1920s: Early developments
-Editing this
+
+### Cathode ray tubes
+In the 1890's scientists worked to understand atomic structure. This exploration eventually lead to the discovery of cathode rays specifically to determine mass, which we now call electrons. In probing cathode rays he deflected them magnetically or electrically, and then compared the heat generated when they hit a thermal junction. The deflection allowed him to calculate mass and the heat generation allowed him to calculate energy. By discovering these subatomic electrically charged particles he won the nobel prize for this in 1906
+
+JJ Thomson continued this work with his research assistant FW Aston. They would deflect accelerated gases using a magnetic and electric field and measure that deflection using a photographic plate in the path of the ion beam (@fig-history-neon). The physical dispersion was measured and due to the presence of two dispersion paths the two stable isotopes of neon were discovered in 1912, the first time stable isotopes were measured. 
+
+
+![Deflection of different isotopes of neon by JJ Thomson and FW Aston captured on photographic film](figs/Discovery_of_neon_isotopes.jpeg){#fig-history-neon fig-alt="Neon First Contact" width="30%"}
+
+### Dempster, Bleakney, and positive ray analysis
 
 <!-- Cathode rays, JJ Thomson, F Aston, AJ Dempster W Bleakney, 1906 Nobel Prize -->
 
