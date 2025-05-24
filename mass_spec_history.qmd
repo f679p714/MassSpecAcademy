@@ -2,22 +2,21 @@
 title: "Mass spec history"
 ---
 
-## 1890s-1920s: Early developments
-
+## 1890s-1920s: Early developments {#sec-EarlyHistory}
 ### Cathode ray tubes
 In the 1890's scientists worked to understand atomic structure. This exploration eventually lead to the discovery of cathode rays specifically to determine mass, which we now call electrons. In probing cathode rays he deflected them magnetically or electrically, and then compared the heat generated when they hit a thermal junction. The deflection allowed him to calculate mass and the heat generation allowed him to calculate energy. By discovering these subatomic electrically charged particles he won the nobel prize for this in 1906
 
-JJ Thomson continued this work with his research assistant FW Aston. They would deflect accelerated gases using a magnetic and electric field and measure that deflection using a photographic plate in the path of the ion beam (@fig-history-neon). The physical dispersion was measured and due to the presence of two dispersion paths the two stable isotopes of neon were discovered in 1912, the first time stable isotopes were measured. 
+JJ Thomson continued this work with his research assistant FW Aston. They would deflect accelerated gases using a magnetic and electric field and measure that deflection using a photographic plate in the path of the ion beam (@fig-history-neon). The physical dispersion was measured and due to the presence of two dispersion paths the two stable isotopes of neon were discovered in 1912, the first time stable isotopes were measured. The glass apparatus that the subatomic particles were accelerated through is a cathode ray tube, and is a predecessor to the modern day mass spectrometer. Aston continued the work combining magnetic and electronic separation increasing the mass resolving power of the instruments .
 
 
 ![Deflection of different isotopes of neon by JJ Thomson and FW Aston captured on photographic film](figs/Discovery_of_neon_isotopes.jpeg){#fig-history-neon fig-alt="Neon First Contact" width="30%"}
 
-### Dempster, Bleakney, and positive ray analysis
-
+### Electron impact sources
+Alternatively, in 1917 AJ Dempster published a work on positive rays largely considered to be the first description of an electron ionization source [@Dempster_1918]. He directed a positively charged beam at a solid surface generating ions he could determine a mass to charge ratio. He continued this work and eventually determined the stable isotopes of lithium and magnesium using this technique. Furthering the techniques developed by Dempster, W Bleakly was able to generate a monoenergetic beam of electrons to ionize gases in 1929 [@Bleakney_1929]. The beam in this type of instrument traversed a 180 $^\circ$ magnetic field and was deflected in a circle to the detector.
 <!-- Cathode rays, JJ Thomson, F Aston, AJ Dempster W Bleakney, 1906 Nobel Prize -->
 
-## 1930s: The first mass spectrometers
-
+## 1930s: The first mass spectrometers {#sec-FirstSpecs}
+Due to the size and complexity of the 180 $^\circ$ magnetic field early spectrometers, they were difficult to build and maintain making them a relatively rare tool. In 1940 A Nier developed a mass spectrometer in which the ion source and the detectors were removed from the influence of the 60 $^\circ$ magnet. These sector field mass spectrometers greatly reduced the power consumption of the instruments, decreased complexity, and did not decrease the mass resolving power. With the knowledge that was gained during the war expansion, he published his seminal paper in 1947, describing the basis of most mass spectrometers that are still used today [@Nier_1947]. The Nier-Johnson or double focusing mass spectrometer combined the sector magnet with an energy filter allowing for pure separation by mass, a design that is still the norm for high mass resolution instruments. 
 <!-- A Nier, E Johnson,  -->
 <!-- https://pubs.acs.org/doi/10.1021/ac8013065 -->
 
@@ -39,3 +38,9 @@ JJ Thomson continued this work with his research assistant FW Aston. They would 
 ## 2000s-modern: Multicollection and modern electronics
 
 <!-- Multicollector dominance, Mars rover -->
+
+
+
+## Further Reading
+[@Griffiths_2008]
+[@DeLaeter_2006]
