@@ -24,7 +24,35 @@ Due to the size and complexity of the 180 $^\circ$ magnetic field early spectrom
 
 <!-- H Urey, W Paul, Calutrons, growth of isotope geochemistry, first TOF in late 40s -->
 
-World War II greatly accelerated the pace of scientific development in physics and chemistry as world powers competed to develop new weapons, production techniques, and energy sources.
+World War II greatly accelerated the pace of scientific development in physics and chemistry as world powers competed to develop new weapons, production techniques, and energy sources. While international collaboration and public dissemination of research ground to a halt during the war years, scientists continued working in secret on much of the same basic research---alongside a focus on applications to wartime policy goals, particularly nuclear weapons development. During the war, massive industrial operations like the Manhattan Project focused on isotope separation technology and the physics of nuclear decay and chain reactions. After the war, many of the scientists who worked on these projects returned to basic research, publishing a wave of new publications based on previously secret wartime research. These developments in the late 1940s and 1950s laid the groundwork for the modern field of isotope geochemistry by bringing the tools of nuclear war to bear on chronology and chemical processes in the geosciences.
+
+### The Manhattan Project
+
+Nuclear weapons require a sufficient mass of concentrated fissile material (known as a *critical mass*) to maintain a nuclear chain reaction. Obtaining a critical mass involves mining and chemical separation of uranium and subsequent isotope enrichment to obtain an enrichment of at least 20\% uranium-235 (usually much higher).
+
+#### The Urey Equation
+
+The basis for modern stable isotope geochemistry can be found in the Urey–Bigeleisen–Mayer equation (frequently referred to simply as the Urey Equation), which describes the equilibrium isotope fractionation that occurs during isotope exchange reactions. The relationship was published by Urey in 1945 and then by Bigeleisen and Mayer in a more accessible form in 1947. In that publication, they also acknowledged that an equivalent relationship was published by German physicist Ludwig Waldmann in 1943 based on simultaneous secret work conducted as part of the isotope separation efforts of the German nuclear program.
+
+$$
+\alpha = \prod_{i=1}^{3N-6} \left( \frac{u_i^*}{u_i} \cdot \frac{1 - e^{-u_i}}{1 - e^{-u_i^*}} \right)
+$$
+
+::: {.callout-caution appearance="minimal" collapse="true"}
+## Where:
+
+* $\alpha$ is the equilibrium isotope fractionation factor.
+* $u_i = \frac{h \nu_i}{k T}$ is the dimensionless vibrational frequency of the light isotopologue.
+* $u_i^* = \frac{h \nu_i^*}{k T}$ is the dimensionless vibrational frequency of the heavy isotopologue.
+* $h$ is Planck's constant.
+* $\nu_i$ and $\nu_i^*$ are the vibrational frequencies (in Hz) of the $i$-th normal mode for the light and heavy isotopologues, respectively.
+* $k$ is Boltzmann's constant.
+* $T$ is the absolute temperature in Kelvin.
+* The product is taken over all vibrational modes: $3N - 6$ for nonlinear molecules, or $3N - 5$ for linear molecules, where $N$ is the number of atoms in the molecule.
+
+:::
+
+While this equation may look complicated, it is actually a simplified model that allows scientists to calculate the equilibrium fraction of isotopes at different temperatures. Its application allows small differences in isotope ratio to be interpreted as indicators of different physical conditions during the formation or modification of different geological materials.
 
 ## 1960s-1970s: Diversification of techniques
 
