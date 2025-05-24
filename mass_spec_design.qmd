@@ -23,7 +23,42 @@ Noble gas extraction line
 
 ### Electron Impact
 
-### Thermal ionization
+### Thermal ionization 
+
+Thermal ionization is a widely used technique in inorganic mass spectrometry for converting neutral atoms into positively and negatively charged ions. Ionization is a critical step that allows the precise separation and direction of ions in the analyzer based on their mass-to-charge (m/z) ratio. In Thermal Ionization Mass Spectrometry (TIMS)—a non-plasma-based method—a small sample (often in the picogram range) is deposited onto a refractory metal filament. Rhenium (melting point ~3180 °C) and platinum (melting point ~1772 °C) are commonly used as filament materials. The filament is then gradually heated to temperatures between 800 °C and 2200 °C, depending on the ionization characteristics of the element. The resulting thermal excitation causes atoms in the sample to lose electrons, forming positive ions. Negative ions form when electronegative atoms or molecules, often loaded as oxides or fluorides, capture thermionically emitted electrons from the hot filament.
+
+TIMS is capable of producing stable ion beams and achieving extremely high precision in isotope ratio measurements (up to ~0.0001%), with minimal isobaric interference of trace quantities of a sample (Analytica Chimica Acta, 2017).
+The technique is suitable for analyzing a wide range of elements in both positive and negative thermal ion modes (Heumann et al., 1995).
+
+•	Elements that preferably form positive thermal ions include:
+Li, Na, K, Rb, Cs, Mg, Ca, Ba, Sc, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Zn, Ga, Zr, Nb, Mo, Ru, Rh, Pd, Ag, Cd, Sn, In, Sb, La, Ce, Pr, Nd, Pm, Sm, Eu, Gd, Tb, Dy, Ho, Er, Tm, Yb, Lu, Hf, Ta, W, Re, Os, Ir, Pt, Au, Hg, Pb, Bi, Th, Pa, U, Np, Pu, Am, Cm.
+•	Elements that preferably form negative thermal ions include:
+
+B, C, N, O, F, Al, Si, P, S, Cl, As, Se, Br, Te, and I.
+
+
+The ionization efficiency of a TIMS analysis depends on several factors:
+•	The ionization potential (IP) of the element,
+•	The work function (W) of the filament material,
+•	And the temperature (T) of the filament.
+This relationship is described by the Langmuir equation (Langmuir and Kingdon, 1925):
+
+
+
+
+
+•	N is the number of atoms,
+•	W is the filament’s work function (eV),
+•	IP is the ionization potential (eV),
+•	T is the filament temperature (Kelvin),
+•	11587 is a constant derived from physical constants.
+
+
+Without ionization enhancers, TIMS ionization efficiencies typically range from <0.1% to ~10%, depending on the element. However, the use of emitters such as silica gel or phosphoric acid significantly increases efficiency—especially for elements like Sr, Pb, Nd, and U, which can reach 10–30% or higher. In contrast, alkali metals such as Rb and Cs, due to their low ionization potentials, can achieve efficiencies above 50% even without emitters under optimal conditions (Hofmann and Hart, 1978; Barshick et al., 2000; Dickin, 2005; Berglund and Wieser, 2011).
+Although increasing filament temperature improves ionization efficiency, it also increases the evaporation rate of the sample. As such, precise control of filament temperature is essential to optimize both ion yield and signal stability.
+
+
+
 
 ### Inductively Coupled Plasma
 
