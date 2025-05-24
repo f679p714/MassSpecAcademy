@@ -17,7 +17,7 @@ Regardless of the physical form of the sample, all sample introduction systems a
 
 #### The vacuum constraint {#sec-design-vacuum-constraint}
 
-Mass spectrometers require high or ultra-high vacuums to operate. If the ions that we've worked so hard to separate from each other hit other particles in the instrument, they'll get knocked off course, lose energy, and show up in the wrong place. The technical term for this is the **mean free path**, which chiefly depends on pressure and quantifies how long the average particle can travel in a straight line before hitting another particle. See XXX for more details on the mean free path and how to calculate it. So, when working correctly, a mass spectrometer needs a low pressure and (thus) a long mean free path.
+Mass spectrometers require high or ultra-high vacuum to operate. If the ions that we've worked so hard to separate from each other hit other particles in the instrument, they'll get knocked off course, lose energy, and show up in the wrong place. The technical term for this is the **mean free path**, which chiefly depends on pressure and quantifies how long the average particle can travel in a straight line before hitting another particle. See XXX for more details on the mean free path and how to calculate it. So, when working correctly, a mass spectrometer needs a low pressure and (thus) a long mean free path.
 
 However, analyzing a sample, by definition, adds stuff to the instrument and makes the vacuum worse. So, the way that and rate at which we can introduce a sample to the instrument is constrained by how many particles we can tolerate (before the mean free path is too short) and the rate and which the instrument can remove them. Larger samples create brighter ion beams, more counts, and thus higher precision. But the size of samples are fundamentally limited by how much added material a mass spectrometer can handle. Every sample introduction system is bounded by this constraint and must design around it.
 
@@ -26,7 +26,12 @@ For example, suppose we need a mean free path of at least 100 m, so that nearly 
 
 Beyond this fundamental constraint, two additional constraints related to vacuum that influence the design of sample introduction systems are: 1) if they were handled by humans, most samples are (or at some point were) at atmospheric pressure; and 2) many ion sources require (or operate more efficiently in) environments where the mean free path is much shorter than 100 m. Getting samples from atmospheric pressure to whatever pressure the ion source requires (anywhere from $<10^{-8}$ to $>1$ bar depending on the instrument), and then from the pressure in the ion source to the (often) lower pressures required by the mass analyzer at the slow rates required by the $Q=SP$ constraint above is a throughline that controls how mass spectrometers are designed. How different inlet systems solve these constraints depends on the phase in which the material is analyzed.
 
-#### Stability constraint
+#### Stability constraint {#sec-stability-constraint}
+
+
+
+
+
 
 #### Identical treatment
 
@@ -34,12 +39,12 @@ Beyond this fundamental constraint, two additional constraints related to vacuum
 
 ### Gases
 
-Adding gases to a mass spectrometer is, in principle, easy because gases will act to equalize pressures across the space provided them. So, if the pressure in our ion source is lower than in the sample reservoir, gas will flow into our instrument at a rate that we can control based on the conductance at the interface. In practice 
+Adding gases to a mass spectrometer is, in principle, easy because gases will act to equalize pressures across the space provided them. So, if the pressure in our ion source is lower than in the sample reservoir, gas will flow into our instrument at a rate that we can control based on the conductance at the interface. In practice,  
 
 
-#### Viscous leak
+#### Viscous leak (e.g., Dual-inlet)
 
-#### Capillary leak
+#### Capillary leak (e.g., Continuous-flow)
 
 ### Liquids
 
@@ -52,6 +57,8 @@ Adding gases to a mass spectrometer is, in principle, easy because gases will ac
 ### Solids
 
 #### Laser ablation
+
+#### Ion bonbardment (SIMS?)
 
 ### Other
 
