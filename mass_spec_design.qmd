@@ -58,6 +58,12 @@ RIMS
 FT-ion cyclotron resonance
 
 
+#### Amplifiers
+
+Capacitive
+
+Resistance-based
+
 ## Detectors
 
 There are several different types of detectors integrated into mass spectrometers. Three general capabilities of the ideal ion detector include: (1) acceptance of ions, (2) 100% efficiency, or no signal loss, and (3) no bias between detectors during simultaneous collection of multiple ion beams.
@@ -66,19 +72,31 @@ Various types of detectors are described below:
 
 ### Faraday detector
 
-#### Amplifiers
 
-Capacitive
+### Electron Multipliers and/or Ion Counters {#sec-design-ion-counters}
 
-Resistance-based
-
-### Electron Multipliers and/or Ion Counters
+Ion counting and the use of electron multipliers have been incorporated into mass spectrometry to detect and measure every ion of low-intensity ion beams, typically less than 10^6 counts per second (CPS). The physical process that allows electron multipliers, or ion counters, to operate is secondary ion emission.  The general principle of secondary electron emission is a particle, or ion, impacts a high-voltage surface, or dynode, causing the release of secondary electrons from the outer layers of atoms.  The number of electrons produced by an impact is dependant on the type of particle hitting the surface (i.e. positive ion, negative ion, electron, etc.), the angle of contact between the particle and the surface, the mass and energy of the incoming particles and the condition of the surface.  The electrons produced by this initial collision are directed down the detector by an electric potential gradient, generating even more secondary electrons each time a collision occurs between an electron and the dynode surface inside the detector until they reach an output device at the end of an ion counter, where a resultant pulse is produced that is electronically processed. Continuous-dynode electron multipliers, discrete-dynode electron multipliers, and Daly detectors are three types of ion counters used for the detection of low-intensity ion beams discussed below.  
 
 #### Secondary Electron Multipliers
 
-#### Daly Detectors
+Discrete dynode electron multipliers are detectors that amplify electron signals through a series of individual electrodes called dynodes. When a primary electron strikes the first dynode, it releases multiple secondary electrons, which are accelerated to the next dynode by an applied voltage. This process repeats across several dynodes, resulting in exponential signal amplification. Discrete dynode designs offer high gain, fast response times, and are widely used due to their sensitivity and reliability.
+
+<!-- insert figure for SEM or discrete-dynode electron multiplier here -->
 
 #### Channeltrons
+
+Continuous dynode electron multipliers are curved lead-silicate glass tubes that have the ability to detect both positive and negative ions, electrons and photons.  A potential between 2200 and 3200 V is applied to the top, or input end, of a continuous-dynode electron multiplier and decreases steadily to ground state at the output end of the detector.  Secondary electrons generated at the input end of the detector are driven down the channel to a collector by the potential gradient generating even more secondary electrons each time the particles some in contact with the inner surface walls of the detector.  
+
+<!-- EXTRA TEXT: Electron gains, or the output current divided by the input current, are a function of the application, the voltage applied to the detector and the length of the dynode surface within the detector.  Typical gains for ion counters are between 10^4 and 10^8.  The voltage applied to each detector has an effect on the impact energy of ions arriving at the detector, which in turn influences the electron gain of the detector.  The gain of an ion counter is also mass dependant with ions of higher atomic masses typically producing lower gains.  In order to maintain normal gains, it is important to make sure the operational voltage of the ion counter is properly set.  Over time, the surface of the detector where electron multiplication takes place will begin to degrade due to contamination from the vacuum system and as a result of ion impacts.  The operational voltage of the detector will need to be increased in order to keep the impact energy of arriving particles constant and to maintain normal electron gains.  It is advantageous to keep count rates low in order to prolong the life-time of an ion counter. -->
+
+<!-- insert figure for Channeltron here -->
+
+#### Daly Detectors
+
+Daly detectors are specialized ion detectors designed to reduce noise and extend detector life. In this system, ions strike a metal electrode (often called a conversion dynode), releasing secondary electrons. These electrons are then accelerated toward a scintillator, where they generate photons. The resulting photons are detected by a photomultiplier tube (PMT), which produces the final output signal. This indirect detection method minimizes direct ion contact with sensitive components, enhancing longevity and reducing background noise.
+
+<!-- insert figure for Daly detector here -->   
+
 
 ### Other
 
