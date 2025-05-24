@@ -13,6 +13,10 @@ Diagram with parts labeled. Ion optics will point to several different pieces.
 
 ### Laser ablation
 
+### Viscous leak
+
+### Capillary leak
+
 ### Other
 
 Clean lab (a bunch of chemistry)
