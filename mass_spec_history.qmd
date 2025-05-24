@@ -22,6 +22,20 @@ title: "Mass spec history"
 ## 1980s-1990s: Commercializaiton and plasma sources
 
 <!-- Early ICP, very first laser ablation in 1980s -->
+
+Houk et al. (1980) and Date & Gray (1981) developed inductively coupled plasma mass spectrometry (ICP-MS). Gray (1985), coupled ICP-MS with laser ablation (LA) systems (as a sample introduction). Soon after their development ICP-MS (in 1983) and ICP-MS coupled with LA (1990's) became comercially avaialble and experienced great improvements, which made them a dominant the inorganic mass spectrometric techniques for trace, ultratrace and isotope analysis (e.g., ).
+
+<!-- REffs-> Gray, A. L., Analyst, 110, 551 (1985); Date, A. R. and Gray, A. L., Analyst, 106, 1225 (1981); Houk, R. S., Fassel, V. A., Flesch, G. D., Svec, H. J., Gray, A. L. and Taylor, C. E., Anal. Chem., 52, 2283 (1980). -->
+
+
+<!-- Development in Fourier transform ion cyclotron resonance mass spectrometry? --- Wanczek, K. P., & Kanawati, B. (2019). Historical developments in Fourier transform ion cyclotron resonance mass spectrometry. Fundamentals and Applications of Fourier Transform Mass Spectrometry, 3-33. -->
+
+Development of matrix-assisted laser desorption/ionization mass spectrometry (MALDI-MS) and electrospray ionization mass spectrometry (ESI-MS) enabled on the analysis
+of large biomolecules:
+
+
+
+
 <!-- https://www.isotopx.com/whats-the-story-behind-isotopx -->
 <!-- https://www.asms.org/docs/default-source/history-posters/vendor_tfs-history-asms-poster_mss_jeps_48-for-jane.pdf?sfvrsn=313576c3_0 -->
 <!-- Laser ablation's explosive growth in 90s, Galileo MS -->
