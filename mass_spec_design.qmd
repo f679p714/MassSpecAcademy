@@ -45,7 +45,23 @@ RIMS
 
 ### Quadrupoles
 
-### Collision cells
+### Collision/Reaction cells (CRCs)
+The purpose of a collision/reaction cell (CRC) is to use an added gas within the cell to mitigate spectral interferences, either via collision of interferents with gas molecules or reaction of interferents or interferred ions . CRCs are most typically used in conjuction with ICP-source instruments, and are placed before the mass analyzer to filter ions or interferences of interest. 
+
+A CRC is typically housed within a quadrupole, hexapole, or octopole. Some CRCs also induce an axial electrical field (along the length of the cell) in order to slow ions down or speed them up, depending on the type of reaction.  
+
+Modes:
+Collision: In collision mode, an inert gas is used to collide interferents 
+    -CID (Collision Induced Dissociation)
+    -KED (Kinetic Energy Descrimination)
+Reaction: In reaction mode, a gas is used to react with either the primary ion of interest or the interferent in order to mitigate the interference. 
+    -Charge transfer
+        example: add NH3 gas to neutralize Hg+ to HG0, thereby removing the Hg interference on Pb
+    -Atom transfer (mass shift)
+        example: add SF6 gas to react 87Sr to SrF and move it away (in terms of mass) from 87Rb
+
+
+Axial acceleration
 
 ### AMS
 
