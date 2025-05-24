@@ -6,7 +6,7 @@ title: "Types of mass spectrometer"
 
 A variety of different types of mass spectrometers exist. In detail, the type of mass spectrometer is defined by the combination of an ion source, one more type of mass analyzer, and one or more type of detector.
 
-![](figs/ms_mixnmatch.jpg){fig-alt="Combinations of ion sources, mass analyzers, and detectors that can define a mass spectrometer."}
+![*The combinations of ion sources, mass analyzers, and detector types/configurations are endless.* **ENDLESS.**](figs/ms_mixnmatch.jpg){fig-alt="Combinations of ion sources, mass analyzers, and detectors that can define a mass spectrometer."}
 
 Different combinations of these three components will give you a different type of mass spectrometer. Since each type of mass spectrometer typically only has one type of ion source, we have organized this section at a high level by ion source, and then by type of mass analyzer or analyzers. We do not delve into detector arrays at this stage; while in practice the detector configuration matters for specific mass spectrometer applications, in terms of defining mass spectrometer 'types' this is the least important characteristic.
 
@@ -54,11 +54,11 @@ Residual gas analyzers, or RGAs, are actually used in a variety of mass spectrom
 
 ## Accelerator Mass Spectrometers (AMS)
 
-Accelerator mass spectrometers, or AMS, are arguably the most complex type of mass spectrometers utilized in the geosciences. They can have electron impact sources, secondary ion sources, or laser ionization sources, and can have numerous magnetic sectors, quadrupoles, electrostatic analyzers, etc. along the path through which ions traverse. The key or defining feature of an AMS, however, is the electrostatic tandem accelerator, which is a large (sometimes very large!) particle accelerator consisting of two stages.
+Accelerator mass spectrometers, or AMS, are undoubtedly the most complex type of mass spectrometers utilized in the geosciences. They can have secondary ion sources or laser ionization sources that ionize either solid or gaseous materials, and can have numerous magnetic sectors, quadrupoles, and electrostatic analyzers in various positions along the path through which ions traverse. The key or defining feature of an AMS, however, is the electrostatic tandem accelerator, which is a large (sometimes very large!) particle accelerator consisting of two stages.
 
 ![](figs/accelerator.jpg){fig-alt="Marissa Tremblay inside the tandem accelerator at PRIME lab, the Purdue University AMS." width="200"}
 
-The first stage has a huge potential voltage across it that accelerates ions to very, very high kinetic energies. These high kinetic energy ions pass through a stripping material (e.g., gas or foil) that destroys molecules and also transforms the ions from negatively charged ions that originate from the source into positive ions with high charge states. This is one if (if not the) most sensitive mass spectrometry techniques for measuring very rare isotopes, particularly when there is a major isotope of the same element that is many, many orders of magnitude more abundant. In the geosciences, AMS is most commonly used to measure radionuclides generated in the atmosphere or in solid minerals by interactions with cosmic rays (i.e., cosmogenic nuclides), such as $^{14}$C, $^{10}$Be, and $^{26}$Al.
+The first stage of a tandem accelerator has a huge potential voltage across it that accelerates ions to very, very high kinetic energies. These high kinetic energy ions pass through a stripping material (e.g., gas or foil) that destroys molecules and also transforms the ions from negatively charged ions that originate from the source into positive ions, typically with high charge states. This is one if (if not the) most sensitive mass spectrometry techniques for measuring very rare isotopes, particularly when there is a major isotope of the same element that is many, many orders of magnitude more abundant. In the geosciences, AMS is most commonly used to measure cosmogenic radionuclides, which are isotopes generated in the atmosphere or in solid minerals by interactions with cosmic rays, such as $^{14}$C, $^{10}$Be, and $^{26}$Al.
 
 ## Inductively Copuled Plasma Source
 
