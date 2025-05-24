@@ -27,11 +27,16 @@ Uranium isotope enrichment can be performed in multiple ways, and most modern en
 
 ### Postwar science
 
+After the conclusion of the war, the physicists and chemists who had worked on the chemistry of isotope enrichment and the physics of nuclear weapons returned to other realms of basic and applied science. The same physics understanding that allowed scientists and engineers to construct nuclear weapons contributed to an understanding of the decay of radioactive nuclides to produce enrichments in radiogenic daughter products in natural materials, which is the basis for radiogenic isotope geochemistry. The principles underlying the chemical separation of isotopes, whether through electromagnetic separation or gaseous diffusion, applied as well to the separation of isotopes through natural geochemical processes, which is the basis for stable isotope geochemistry.
+
+#### Radiogenic isotope geochemistry
 
 
-#### The Urey Equation
+#### Stable isotope geochemistry
 
-The basis for modern stable isotope geochemistry can be found in the Urey–Bigeleisen–Mayer equation (frequently referred to simply as the Urey Equation), which describes the equilibrium isotope fractionation that occurs during isotope exchange reactions. The relationship was published by Urey in 1945 and then by Bigeleisen and Mayer in a more accessible form in 1947. In that publication, they also acknowledged that an equivalent relationship was published by German physicist Ludwig Waldmann in 1943 based on simultaneous secret work conducted as part of the isotope separation efforts of the German nuclear program.
+##### The Urey Equation
+
+The chemistry underlying modern stable isotope geochemistry can be seen in the Urey–Bigeleisen–Mayer equation (frequently referred to simply as the Urey Equation), which describes the equilibrium isotope fractionation that occurs during isotope exchange reactions. The relationship was published by Urey in 1945 and then by Bigeleisen and Mayer in a more accessible form in 1947. In that publication, they also acknowledged that an equivalent relationship was published by German physicist Ludwig Waldmann in 1943 based on simultaneous secret work conducted as part of the isotope separation efforts of the German nuclear program.
 
 $$
 \alpha = \prod_{i=1}^{3N-6} \left( \frac{u_i^*}{u_i} \cdot \frac{1 - e^{-u_i}}{1 - e^{-u_i^*}} \right)
@@ -52,6 +57,10 @@ $$
 :::
 
 While this equation may look complicated, it is actually a simplified model that allows scientists to calculate the equilibrium fraction of isotopes at different temperatures. Its application allows small differences in isotope ratio to be interpreted as indicators of different physical conditions during the formation or modification of different geological materials.
+
+#### Technological developments
+
+In addition to the boosts that the underlying science of geochemistry received from the Manhattan Project, the early mass spectrometers pioneered by AO Nier and others benefited directly from the work on Calutrons and other scientific and industrial instruments during the war years. Rapid advances in vacuum systems and instrument design occured in this era. John Reynolds introduced the static vacuum noble gas mass spectrometer in 1956, dramatically improving the sensitivity of these instruments and paving the way for realistic measurement of noble gas samples from rocks and minerals [ref](https://doi.org/10.1063/1.1715415). This in turn enabled the rapid growth of the K/Ar dating technique, which allowed geochemists to produce a quantitative Geologic Time Scale and which dominated the next several decades of geochronology before being largely displaced by the related $^{40A}$r/$^{39}$Ar technique and U/Pb geochronology.
 
 ## 1960s-1970s: Diversification of techniques
 
