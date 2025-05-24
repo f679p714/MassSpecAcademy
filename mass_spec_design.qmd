@@ -93,6 +93,12 @@ Array detectors
 ### Zoom/dispersion lenses
 
 ## Vacuum Systems
+A large amount of the design and mechanical components of mass spectometers are dedicated to production and maintenance of regions with a very low density of gas - typically several order of magnitude lower gas concentration than atmosphere.  The term "vacuum" is typically applied to gas pressures significantly below atmospheric.  A "high vacuum" is "low pressure".  The SI unit for pressure is the pascal, with the symbol Pa and in SI base units are kg/m/s^2, although workers commonly continue to use non-SI units such as bar (or even more commonly, mbar) and torr, where 1 mbar = 0.750062 torr = 1 hPa.  Conveniently, pressures are typically reported in orders of magnitude, so for the purposes of vacuum systems in mass spectrometers, mbar ~ torr ~ hPa.
+
+High vacuums are useful for several reasons, the importance of each depends on the type of mass spectrometer and analysis.  When an ion beam moves through space, uncontrolled ion-gas interactions are typically deleterious because they induce ion scattering and energy loss.  The mean-free-path of an ion - the average distance over which an ion cna travel without colliding with a gas particle - is a useful concept.  At atmospheric pressure, the mean free path is only 10s of nanometers, whereas under pressures more typical of mass spectrometers, ca 10^-7 to 10^-10 hPa are 10s to 100s of kilometers, much longer than the typical drift length of ion beams in mass spectrometers.
+
+Ions are often accelerated using high-voltage components.  Unfortunately residual gas between two electrodes at differing electrical potential can cause arcing and high voltage discharge.  
+
 
 ### Low vacuum pumps
 
