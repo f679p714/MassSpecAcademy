@@ -13,7 +13,7 @@ Diagram with parts labeled. Ion optics will point to several different pieces.
 
 ### Laser ablation
 
-### Other
+### Other 
 
 Clean lab (a bunch of chemistry)
 
@@ -60,7 +60,17 @@ FT-ion cyclotron resonance
 
 ## Detectors
 
-### Faraday detector
+The relative the ion beam intensities, now separated according to their mass or mass to charge ratio, are measured using one or more detectors. There are several types of detectors, and which one gets used depends on the size of the ion beam and the design constraints, like the size and shape, of the mass spectrometer. This section provides an overview of the main types of detectors and the situations in which they are used. 
+
+The simplest detector is a [Faraday detector](@sec-design-faradays), which is useful for measuring larger ion beams, generally those with currents of tens to hundreds of thousands of ions per second to many billions or trillions of ions per second. Electron multipliers, often operated in counting mode and known as ion counters, can be used to measure much smaller ion beams, down to just a few counts per second or fewer. Secondary electron multipliers and Daly detector systems are both examples of electron multipliers. 
+
+### Faraday detectors {#sec-design-faradays}
+
+Faraday detectors capture the ions in an ion beam.  If, for instance, the ions are positive ions, then the captured positive ions generate add a positive charge to the Faraday collector. That positive charge is balanced by an electron moving into the Faraday cup through an electrical connection -- a shielded wire -- attached to its exterior. The rate that charge-balancing electrons move into the Faraday detector is proportional (and very close to equal to) the rate at which positive charges are moving into the detector.  Thus, measuring the flow of electrons into the Faraday detector, i.e., the electric current in that wire, measures the ion beam current.  If those positive ions have a $+1$ charge, then the number of electrons will ideally equal the number of positive ions. 
+
+![Diagram of a Faraday detector](figs/FaradaySketchDiagram.svg){#fig-design-Faraday-sketch alt-text="Faraday detector sketch" width=80%}
+
+Unfortunately, 
 
 #### Amplifiers
 
