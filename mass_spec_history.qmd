@@ -28,7 +28,15 @@ World War II greatly accelerated the pace of scientific development in physics a
 
 ### The Manhattan Project
 
-Nuclear weapons require a sufficient mass of concentrated fissile material (known as a *critical mass*) to maintain a nuclear chain reaction. Obtaining a critical mass involves mining and chemical separation of uranium and subsequent isotope enrichment to obtain an enrichment of at least 20\% uranium-235 (usually much higher).
+Nuclear weapons require a sufficient mass of concentrated fissile material (known as a *critical mass*) to maintain a nuclear chain reaction. Obtaining a critical mass involves mining and chemical separation of uranium and subsequent isotope enrichment to obtain an enrichment of at least 5.4\% uranium-235[ref](https://web.archive.org/web/20131102011417/http://web.ornl.gov/info/reports/1998/3445606060721.pdf) (usually much higher), which is the level required to sustain a chain reaction. The critical mass depends on the activity of the fissile species and its concentration or grade. For example, the critical mass of a sphere of metallic uranium-235 is around 50 kg, whereas for plutonium-239 it is only around 10kg [ref](https://www.euronuclear.org/glossary/critical-mass/). At 20% enrichment of uranium-235, the critical mass is well over 500 kg [ref](https://web.archive.org/web/20131102011417/http://web.ornl.gov/info/reports/1998/3445606060721.pdf).
+
+In addition to understanding the parameters of criticality and sourcing raw materials, the success of the Manhattan Project depended on achieving sufficient enrichment of fissile species. Natural uranium is about 0.7\% uranium-235, and while enriching it to just over 5\% provides the theoretical possibility of criticality, weapons charges with masses in excess of a ton are impractical. A standard definition of "highly-enriched uranium" is over 20\% uranium-235 [ref](https://www.iaea.org/newscenter/news/what-is-uranium), but in practice weapons-grade uranium is usually over 90\% uranium-235.
+
+Uranium isotope enrichment can be performed in multiple ways, and most modern enrichment facilities use gaseous diffusion of UF$_6$ in a chain of gas centrifuges to gradually separate the heavier and lighter natural isotopes of uranium [ref](https://www.acs.org/education/whatischemistry/landmarks/uranium-isotopes.html). However, the first uranium bomb produced during the Manhattan Project (the "Little Boy" gun bomb) used uranium produced by the Calutrons in the Y-12 enrichment facility at Oak Ridge [ref](https://www.nps.gov/articles/000/oak-ridge-y-12-pilot-plant-building-9731-panoramic-tour.htm). The Calutrons, so named because they were developed by Ernest Lawrence at The University of California and used large magnets originally built for cyclotrons, were essentially enormous mass spectrometers in which UCl$_4$ was ionized by hot filaments and then separated by travel through a magnetic field, the same way a mass spectrometer mass analyzer separates isotopes. However, rather than measuring nA and smaller ion beams using sensitive electronics, the Calutrons collected grams of enriched uranium from ion beams in the tens of mA in graphite collector cups that were later burned to allow recovery of the uranium metal [ref](https://www.sciencedirect.com/science/article/pii/S1044030597001232).
+
+### Postwar science
+
+
 
 #### The Urey Equation
 
