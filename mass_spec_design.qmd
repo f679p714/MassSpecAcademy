@@ -44,20 +44,22 @@ RIMS
 ### Electrostatic analyzers
 
 ### Quadrupoles {#sec-design-quadrupoles}
+ 
+Quadrupole mass analyzers generate electric fields through which only ions of certain mass to charge ratios are able to pass. As shown in the figure -need fig-, ions enter the quadrupole along it's z-axis. Those with m/z within the selected range will maintain a stable trajectory along the z-axis and reach the spectrometer's detector. The electric fields will destabilize the paths of ions with m/z outside the selected range, knocking them "off course" and preventing them from passing through the analyzer. 
 
-Quadrupole mass analyzers generate electric fields through which only ions of certain mass to charge ratios are able to pass. As shown in the figure - need fig - , ions enter the quadrupole along it's z-axis. Those with m/z within the selected range will maintain a stable trajectoy along the z-axis and reach the spectormeter's detector. The electric fields will destabilize the paths of ions with m/z outside the selcted range, knocking them "off course" and preventing them from passing through the analyzer. 
+Dynamic.
+
+Analyzer vs. filter? filtering vs. bending?
 
 **How does quadrupole mass filtering work?**
 
-Quadrupoles use four parallel charged rods that are connected, diagonally, in pairs. A potential of (U+Vcosωt) is applied to one pair, while a potential of -(U+ωt) applied to the second pair. Here Vcosωt represents an alternating RF voltage and U represents a DC voltage ("DC offset"). If this seems complicated, just know that the applied potentials create orthogonal electrical fields -- one in the x-plane, and one in the y-plane -- which interact differently with ions of different m/z. 
+Quadrupole mass analyzers use four parallel rods that are connected in cross-wise pairs. A potential of (U+Vcosωt) is applied to one pair, while a potential of -(U+ωt) applied to the second pair. Here, Vcosωt represents an alternating RF voltage and U represents a DC voltage ("DC offset"). The applied potentials create orthogonal electrical fields--one in the x-plane, and one in the y-plane--that interact differently with ions of different m/z. 
 
 In the X-direction, low m/z ions generally follow the RF component of the field, gain energy, and oscillate with increasing amplitude until they collide with the rods. This creates a "high-pass" filter in the X-direction that allows only heavier ions to maintain their trajectory. 
 
-In the Y-direction, the DC component of the field has "defocusing" or destablilizing effect, but the RF component can keep lighter ions on course by peridcially correcting their paths. In this direction, the applied electric fields creat a "low-pass" filter through which only lighter ions can maintain their trajectory. 
+In the Y-direction, the DC component of the field has a "de-focusing" or destabilizing effect, but the RF component can keep lighter ions on course by periodically correcting their paths. In this direction, the applied electric fields create a "low-pass" filter through which only lighter ions can maintain their trajectory. By manipulating the RF and DC components of the field, the high and low-pass filters can be set to resolve individual atomic masses. 
 
-By manipulating the RF and DC components of the field, high and low-pass filters can together resolve individual atomic masses. 
-
-**Some math!** or **More details!** or **How are the potentials calculated?** 
+**Some math!** or **More details!** or **How are potentials calculated?**  
 - follow an ex: stability of ion of a single mass 
 -       mathieu equation and "stability triangle" 
 
