@@ -103,8 +103,28 @@ Array detectors
 ### Zoom/dispersion lenses
 
 ## Vacuum Systems
+A large amount of the design and mechanical components of mass spectometers are dedicated to production and maintenance of regions with a very low density of gas - typically several order of magnitude lower gas concentration than atmosphere.  The term "vacuum" is typically applied to gas pressures significantly below atmospheric.  A "high vacuum" is "low pressure".  The SI unit for pressure is the pascal, with the symbol Pa and in SI base units are kg/m/s^2, although workers commonly continue to use non-SI units such as bar (or even more commonly, mbar) and torr, where 1 mbar = 0.750062 torr = 1 hPa.  Conveniently, pressures are typically reported in orders of magnitude, so for the purposes of vacuum systems in mass spectrometers, mbar ~ torr ~ hPa.
 
-### Low vacuum pumps
+High vacuums are useful for several reasons, the importance of each depends on the type of mass spectrometer and analysis.  When an ion beam moves through space, uncontrolled ion-gas interactions are typically deleterious because they induce ion scattering and energy loss.  The mean-free-path of an ion - the average distance over which an ion cna travel without colliding with a gas particle - is a useful concept.  At atmospheric pressure, the mean free path is only 10s of nanometers, whereas under pressures more typical of mass spectrometers, ca 10^-7 to 10^-10 hPa are 10s to 100s of kilometers, much longer than the typical drift length of ion beams in mass spectrometers.
+
+Ions are often accelerated using high-voltage components. Unfortunately, residual gas between two electrodes at differing electrical potential can cause arcing and high voltage discharge. This can damage sensitive components, disrupt measurements, and pose safety hazards.  The breakdown distance in dry air, for example, for a potential difference of 8 kV, is ~5 cm.  In contrast, at a pressure of only 10^-2 hPa, the breakdown distance decreases to 1 μm, permitting components at different potential differences to be closely spaced.
+
+For mass spectrometer measurements of gasses, the vacuum quality can also contribute to sample contamination.  For example, Ar is 0.94% of dry air, so for geochronology measurements of radiogenic $^{40}$Ar, the higher the vacuum, the better the sample-to-blank ratio.
+
+### Gas flow at low pressure
+At low pressures, the behavior of gas flow changes significantly compared to atmospheric conditions. There are 2.5 main regimes (two different flow regimes and a "transitional" one) of gas flow relevant to vacuum systems:
+
+- **Viscous (or continuum) flow:** At relatively high pressures (above ~1 mbar), collisions between residual gas molecules dominate the physical behavior. Flow is dominated by viscosity, and gases behave much like fluids.  This flow regime matches our expectations of gas behavior in day-to-day lives in the atmosphere, where gasses rush to expand into free spaces.
+- **Molecular (or free molecular) flow:** At very low pressures (below ~10$^{-3}$ mbar), gas molecules rarely collide with each other and instead interact mainly with the walls of the vacuum chamber. In this regime, traditional fluid dynamics no longer apply, and gas transport is governed by the random motion of individual molecules.  One important difference when in molecular flow is that residual gas molecules, because they are no longer pressed to fill empty space by collisions with other molecules, are much less likely to enter small orifaces (which is leveraged when differential pumping is required) or move around corners. 
+- (**Transitional flow:** In the intermediate pressure range (~1 mbar to 10^-3 mbar), both molecule-molecule and molecule-wall collisions are important. Flow characteristics are a mix of viscous and molecular behaviors.)
+
+The transition between these regimes is described by the Knudsen number (Kn), which is the ratio of the mean free path of a molecule to a characteristic dimension (such as the diameter of a pipe). High Knudsen numbers (Kn > 1) indicate molecular flow, while low Knudsen numbers (Kn < 0.01) indicate viscous flow.
+
+### Vacuum Pumps
+
+Vacuum pumps are "roughly" divided into low-vacuum, or roughing pumps, that operate in a viscous flow regime and can pump directly from atmospheric pressure, and high-vacuum pumps that operate in the molecular flow regime and typically require a minimum vacuum to operate.
+
+#### Roughing pumps 
 
 Oil pumps
 Mercury diffusion pumps
@@ -114,7 +134,7 @@ Diaphragm pumps
 Roots pumps
 Getter pumps
 
-### High vacuum components
+#### High vacuum pumps
 
 Turbos
 Ion pumps
