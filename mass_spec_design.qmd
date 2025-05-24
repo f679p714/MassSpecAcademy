@@ -7,15 +7,25 @@ Diagram with parts labeled. Ion optics will point to several different pieces.
 
 ## Sample introduction system
 
-### Wet plasma
+Sample introduction systems can be organized by the physical form (phase) of the material it handles. Fundamentally different strategies are needed depending on whether the sample is a solid, liquid, or gas. The right introduction system for your specific application could also depend on your analytical goal. For example, you might need to add a tracer to help you quantify amounts of certain analytes, or use exploit chemical or physical processes to remove a problematic contaminant. Here, we'll organize introduction systems to 
 
-### Desolvating nebulizer
+### Gases
 
-### Laser ablation
+#### Viscous leak
 
-### Viscous leak
+#### Capillary leak
 
-### Capillary leak
+### Liquids
+
+#### Wet plasma
+
+#### Desolvating nebulizer
+
+#### Liquid chromatograph
+
+### Solids
+
+#### Laser ablation
 
 ### Other
 
