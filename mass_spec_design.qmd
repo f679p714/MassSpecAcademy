@@ -45,6 +45,22 @@ RIMS
 
 ### Quadrupoles
 
+Quadrupole mass analyzers filter ions by generating an electric field through which only ions of certain mass to charge ratios are able to pass. As shown in the figure - need fig - , ions enter the quadrupole along it's z-axis. Those with m/z within the selected range will maintain a stable trajectoy along the z-axis and reach spectormeter's the detector. Ions with m/z outside the selcted range will be destabilized by the applied electric fields and prevented from passing through the analyzer. 
+
+**How does it work?**
+Quadrupole mass analyzers use four charged rods ("poles") connected diagonally in pairs. One pair 
+-  generation of e-field using RF and DC potetial
+-       low pass filter and high pass filter
+
+**Tuning (basic...is this called tuning?)**
+-  impact of changing RF and DC 
+        higher DC wrt RF means more selcteve filter, less abolute amount of ions/ signal 
+
+**Some Math**
+- ex: stability of ion of a single mass 
+-       math --> mathieu equation / "stability triangle"
+
+
 ### Collision cells
 
 ### AMS
