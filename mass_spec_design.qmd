@@ -60,6 +60,10 @@ FT-ion cyclotron resonance
 
 ## Detectors
 
+There are several different types of detectors integrated into mass spectrometers. Three general capabilities of the ideal ion detector include: (1) acceptance of ions, (2) 100% efficiency, or no signal loss, and (3) no bias between detectors during simultaneous collection of multiple ion beams.
+
+Various types of detectors are described below:
+
 ### Faraday detector
 
 #### Amplifiers
