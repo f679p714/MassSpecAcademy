@@ -76,9 +76,22 @@ In addition to the boosts that the underlying science of geochemistry received f
 
 <!-- SIMS, glow discharge, Viking mass spectrometers, AMS, commercial TOF, commercial QMS -->
 
-## 1980s-1990s: Commercializaiton and plasma sources
-
+## 1980s-1990s: Commercializaiton and plasma sources {#sec-history-1980-1999}
 <!-- Early ICP, very first laser ablation in 1980s -->
+@Houketal1980 and @Date&Gray1981 developed inductively coupled plasma mass spectrometry (ICP-MS). @Gray1985 coupled ICP-MS with laser ablation (LA) systems (as a sample introduction). Soon after their development ICP-MS (in 1983) and ICP-MS coupled with LA (1990) became comercially avaialble and experienced great improvements, which made them one of the most dominant techniques for trace, ultratrace and isotope analysis.
+
+The development of matrix-assisted laser desorption/ionization mass spectrometry (MALDI-MS) and electrospray ionization mass spectrometry (ESI-MS) [@karas&Hillenkamp1988 and @tanaka1988protein] enabled soft ionization large biomolecules. Earliest succesful analyzes on biomolecular on macromolecules using soft ionization published in late 1980's [@fenn1989electrospray; @fenn1990electrospray]. Fenn and Tanaka (together with Wüthrich) received the Nobel Prize for chemistry in 2002 (@https://www.nobelprize.org/prizes/chemistry/2002/popular-information/.). Nowadays, MALDI and ESI are soft ionization techniques that are combined with various [mass analyzers](@label4massanalyzers) to analyze proteins, peptides, syntheic polymers, small oligonucleotides, carbohydrates andlipids <!-- reewrite -->
+
+THe rapid improvements and development were triggered by extensive application fields, which included investigation of the hazardeous waste disposal (approved by US Enviremental Protection Agency), space explorations (@https://science.nasa.gov/mission/galileo-jupiter-atmospheric-probe/) <!-- continue -->
+
+
+<!-- Maybe write about___developments  in Fourier transform ion cyclotron resonance mass spectrometry? --- Wanczek, K. P., & Kanawati, B. (2019). Historical developments in Fourier transform ion cyclotron resonance mass spectrometry. Fundamentals and Applications of Fourier Transform Mass Spectrometry, 3-33. -->
+
+:
+
+
+
+
 <!-- https://www.isotopx.com/whats-the-story-behind-isotopx -->
 <!-- https://www.asms.org/docs/default-source/history-posters/vendor_tfs-history-asms-poster_mss_jeps_48-for-jane.pdf?sfvrsn=313576c3_0 -->
 <!-- Laser ablation's explosive growth in 90s, Galileo MS -->
