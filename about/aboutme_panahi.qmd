@@ -1,5 +1,5 @@
 
-# Fatema Panahi
+# Fatema Panahi {.unnumbered}
 
 Hi there! 👋 I'm Fatema Panahi
 
@@ -11,5 +11,5 @@ Interests: Mass spectrometry | Arc magmatism | Thermochronology  | CA-ID-TIMS Ge
 Reach me: [fpanahi@ku.edu](mailto:fpanahi@ku.edu)
 
 
-![](figs/profile/name.jpg)
+<!-- ![](profile/name.jpg) -->
 
