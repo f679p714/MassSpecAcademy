@@ -42,6 +42,7 @@ There's a list of ingredients in the components chapters. Here is the general re
 - Can have just one collector, but usually multicollector setup.
 - Faradays often large, 1 mm opening slit, movable, equipped with suppressors and porous graphite insert. 
 - Electron multipliers (one or many), analog or ion counting
+edit here 
 
 ### Amplification systems {#sec-TIMS-amplifiers}
 
