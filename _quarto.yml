@@ -51,7 +51,7 @@ book:
       - TIMS.qmd
       - ICPMS.qmd
       - SIMS.qmd
-      - Oribtrap.qmd
+      - Orbitrap.qmd
     - part: "Analytical Considerations"
       chapters: 
       - baselines.qmd
